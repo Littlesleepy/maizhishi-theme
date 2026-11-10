@@ -1,6 +1,6 @@
 # 公开发布准备
 
-本地候选版本：0.1.1。此项目已经整理为自包含发布目录，尚未公开上传、创建 Release 或申请插件市场收录。
+当前候选版本：0.1.1。完整项目已上传到公开 GitHub 仓库，包含预构建前端与对应源码；尚未创建 Release 或申请插件市场收录。
 
 ## 发布前需要补齐
 
@@ -9,7 +9,7 @@
 | 产品名称与介绍 | 已确定：麦之诗(界面风格)，介绍见 manifest |
 | 发布作者 | 已确定：`littlesleepy`，主页 `https://github.com/Littlesleepy`；公开 API 核对账号存在 |
 | 插件 ID | 已确定：`github.littlesleepy.maizhishi-theme`，后续发布保持稳定 |
-| 公开仓库 | 已创建：`https://github.com/Littlesleepy/maizhishi-theme`；2026-11-10 核对为公开空仓库，默认分支 main；首次提交待上传 |
+| 公开仓库 | 已完成首次公开上传：`https://github.com/Littlesleepy/maizhishi-theme`，默认分支 main |
 | 第三方美术和音效 | 已记录来源与哈希；公开再分发许可尚未确立，见 ASSET_SOURCES.md |
 | 第三方代码和字体 | 附锁文件、许可证声明及来源清单；缺失或未逐字核对项需发布前核对 |
 | 市场审核 | 未提交；须披露修改插件目录外前端文件、所需权限、固定指纹兼容及恢复机制 |
@@ -29,4 +29,4 @@
 
 截至 2026-11-10 核对的[官方贡献指南](https://github.com/Mai-with-u/plugin-repo/blob/main/CONTRIBUTING.md)要求公开 GitHub 仓库及至少一个已发布 Release，支持预发布但不接受仅有草稿或 Tag；随后通过仓库的添加插件 Issue 流程提交。未来提交时应重新核对最新规则。
 
-本轮执行范围仅为本地准备。公开仓库、Release 和市场申请留待后续指令。
+当前已完成公开仓库首次提交。Release 和市场申请留待后续步骤；公开上传的用户授权不被记录为第三方权利人授予的素材许可。
