@@ -12,11 +12,17 @@
     "path": "icon.png",
     "width": 256,
     "height": 256,
-    "bytes": 88413,
-    "sha256": "09cf28419fe90c389bbfa50900768f9d120fd4f0ff5a6cb38e1fd83c6edd94da",
-    "processing": "Proportional resize only, System.Drawing HighQualityBicubic, PNG encoding",
-    "background": "Original background retained; top-left corner alpha is 255 in source and output",
-    "host_max_icon_bytes": 524288
+    "bytes": 87874,
+    "sha256": "dee16f0b8ef7fe8cd0ca7bc97103da7035aab44d6d475e3d9d6a4167b6c04bc1",
+    "processing": "Built-in image_gen exterior-corner background extraction; alpha edge cleanup, restore original opaque interior RGB; proportional 256x256 System.Drawing resize",
+    "background": "Ivory tile remains opaque; all four exterior corners alpha=0",
+    "host_max_icon_bytes": 524288,
+    "corner_alpha": [
+      0,
+      0,
+      0,
+      0
+    ]
   },
   "rights_note": "User selected the image for this use; no additional third-party rights are inferred."
 }
