@@ -1,0 +1,77 @@
+[
+  {
+    "file": "utx_icon_footer_home_normal.png",
+    "source": "artifacts/maibot-orchis-wb-client-demo/research/wb-sprites/utx_icon_footer_home_normal.png",
+    "sha256": "49d61a7c369be71d64b66553a3e680601d5f6c9486cc9f2f4ce1dd6f9e20453d"
+  },
+  {
+    "file": "utx_ic_mtv_message.png",
+    "source": "artifacts/maibot-orchis-wb-client-demo/research/wb-sprites/utx_ic_mtv_message.png",
+    "sha256": "3d68799e971256a71ecc93137bc9f75047a162126bd83ef594edf971cca94eda"
+  },
+  {
+    "file": "icon_other_config.png",
+    "source": "artifacts/maibot-orchis-wb-client-demo/assets/game/icon_other_config.png",
+    "sha256": "0b2728cae6e2d746f0e1a08e93aa91e6c3ddeaf8753ed536037a54b3b7f468d6"
+  },
+  {
+    "file": "utx_ic_deck.png",
+    "source": "artifacts/maibot-orchis-wb-client-demo/research/wb-sprites/utx_ic_deck.png",
+    "sha256": "3cf4c679bef70d8fe2f345174be5a9cbca8c0c073ca38545ddb0ef829b459aaf"
+  },
+  {
+    "file": "utx_ic_link_card.png",
+    "source": "artifacts/maibot-orchis-wb-client-demo/research/wb-sprites/utx_ic_link_card.png",
+    "sha256": "d33c5fd0cc6a150cb24aebac96c5eb7c65563ec9d22a9a8fbca08e1d2ec334e0"
+  },
+  {
+    "file": "utx_ic_input.png",
+    "source": "artifacts/maibot-orchis-wb-client-demo/research/wb-sprites/utx_ic_input.png",
+    "sha256": "8e85a3271bfa623df0f281b7b9b1e5308a893bd79c7093a35830a65134757469"
+  },
+  {
+    "file": "utx_icon_footer_solo_normal.png",
+    "source": "artifacts/maibot-orchis-wb-client-demo/research/wb-sprites/utx_icon_footer_solo_normal.png",
+    "sha256": "5e1da0175df15fc12eb4f8d46725e29cce900ed09376e36b0f27bc3906067513"
+  },
+  {
+    "file": "utx_ic_puzzle.png",
+    "source": "artifacts/maibot-orchis-wb-client-demo/research/wb-sprites/utx_ic_puzzle.png",
+    "sha256": "f24a8308193bb0c4b73c1031e9bb565c637b91ed4836032cca939addf6a559c7"
+  },
+  {
+    "file": "utx_icon_footer_shop_normal.png",
+    "source": "artifacts/maibot-orchis-wb-client-demo/research/wb-sprites/utx_icon_footer_shop_normal.png",
+    "sha256": "396efe6397819bcac22371273bfc68440ef3bfb956e69842ae014b420fdc507d"
+  },
+  {
+    "file": "utx_ic_log.png",
+    "source": "artifacts/maibot-orchis-wb-client-demo/research/wb-sprites/utx_ic_log.png",
+    "sha256": "748047a93307e99a838055398580f2c3b3378e28412141f3c2af36201e464319"
+  },
+  {
+    "file": "icon_other_code.png",
+    "source": "artifacts/maibot-orchis-wb-client-demo/assets/game/icon_other_code.png",
+    "sha256": "8b0f6073597d35d3d58c9f579c96108734074a1504e7f5faafaf41e9dcfac205"
+  },
+  {
+    "file": "utx_ic_official_user.png",
+    "source": "artifacts/maibot-orchis-wb-client-demo/research/wb-sprites/utx_ic_official_user.png",
+    "sha256": "3b608025166869b3ab3ff774cd289d1c45d3c29ec24f7de2d37629709f792bd7"
+  },
+  {
+    "file": "utx_ic_menu.png",
+    "source": "artifacts/maibot-orchis-wb-client-demo/research/wb-sprites/utx_ic_menu.png",
+    "sha256": "291d04305d5760c592d565e756ec4a683954a1c9bce781f17eff1de423a6e80d"
+  },
+  {
+    "file": "utx_ic_desc.png",
+    "source": "artifacts/maibot-orchis-wb-client-demo/research/wb-sprites/utx_ic_desc.png",
+    "sha256": "beff74d0973d561ebe671c69f6ff08e21a5410e66b09f7833724b502c9e5a352"
+  },
+  {
+    "file": "utx_ic_cost_graph.png",
+    "source": "artifacts/maibot-orchis-wb-client-demo/research/wb-sprites/utx_ic_cost_graph.png",
+    "sha256": "0acaf14380ce005bd5b6ecc665c408967846af3f1ab5392dce6461052504a4f0"
+  }
+]

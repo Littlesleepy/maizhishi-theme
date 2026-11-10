@@ -1,0 +1,217 @@
+{
+  "client": "MuMu模拟器x影之诗高清版 · Windows",
+  "effect": "Prefabs/UI/CardDetailScreen/cmn_deckedit_evo_1",
+  "rights": "© Cygames, Inc.",
+  "files": [
+    {
+      "file": "assets/evolution/rune-ribbon.png",
+      "sources": [
+        {
+          "name": "ef_neutral001_tra",
+          "type": "Texture2D",
+          "source": "H:\\Shadowverse\\Shadowverse\\MuMu模拟器x影之诗高清版_Data\\Persistent\\dat\\5V\\5VWBAOSY5R4DH6VM4TJZEADLY4 [Prefabs/UI/CardDetailScreen]",
+          "size": [
+            128,
+            64
+          ],
+          "sha256": "210b322a1f3abefc4058fa04a2e93968fe9d6b8d2a3386db337b7ddd800fe7a7"
+        }
+      ],
+      "operation": "Original native texture pixels unchanged",
+      "sha256": "210b322a1f3abefc4058fa04a2e93968fe9d6b8d2a3386db337b7ddd800fe7a7",
+      "size": [
+        128,
+        64
+      ]
+    },
+    {
+      "file": "assets/evolution/rainbow-halo.png",
+      "sources": [
+        {
+          "name": "ef_ring037_tra",
+          "type": "Texture2D",
+          "source": "H:\\Shadowverse\\Shadowverse\\MuMu模拟器x影之诗高清版_Data\\Persistent\\dat\\5V\\5VWBAOSY5R4DH6VM4TJZEADLY4 [Prefabs/UI/CardDetailScreen]",
+          "size": [
+            128,
+            128
+          ],
+          "sha256": "c636ead6b4f764eee076e618711c5ea8578ca7a0ac8b9037c5559403cdaf107e"
+        }
+      ],
+      "operation": "Original native texture pixels unchanged",
+      "sha256": "c636ead6b4f764eee076e618711c5ea8578ca7a0ac8b9037c5559403cdaf107e",
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "file": "assets/evolution/flare.png",
+      "sources": [
+        {
+          "name": "tex_eff_common_flare_4",
+          "type": "Texture2D",
+          "source": "H:\\Shadowverse\\Shadowverse\\MuMu模拟器x影之诗高清版_Data\\Persistent\\dat\\5V\\5VWBAOSY5R4DH6VM4TJZEADLY4 [Prefabs/UI/CardDetailScreen]",
+          "size": [
+            256,
+            256
+          ],
+          "sha256": "566c00c7469f3742695f309710199c5a25dfec1021f3c1bcef20c113811e6528"
+        }
+      ],
+      "operation": "Native additive RGB converted to transparent straight-alpha light texture",
+      "sha256": "796314ff3cc70b514cd38ce54087f1ef3af316e014ce6ac607ac79eb20405b9d",
+      "size": [
+        256,
+        256
+      ]
+    },
+    {
+      "file": "assets/evolution/twinkle.png",
+      "sources": [
+        {
+          "name": "tex_eff_common_twinkle_1",
+          "type": "Texture2D",
+          "source": "H:\\Shadowverse\\Shadowverse\\MuMu模拟器x影之诗高清版_Data\\Persistent\\dat\\5V\\5VWBAOSY5R4DH6VM4TJZEADLY4 [Prefabs/UI/CardDetailScreen]",
+          "size": [
+            256,
+            256
+          ],
+          "sha256": "dbbc97c9d5b50d0fb405fedb08dea5d0a877f0a93701f08392c56ff5e1f988be"
+        }
+      ],
+      "operation": "Native additive RGB converted to transparent straight-alpha light texture",
+      "sha256": "9580e3b0b456e20b37cd9ab8b76854e5e7a022fb12b80fa7101c70d4a035e0a0",
+      "size": [
+        256,
+        256
+      ]
+    },
+    {
+      "file": "assets/evolution/rays.png",
+      "sources": [
+        {
+          "name": "tex_eff_common_impact_2",
+          "type": "Texture2D",
+          "source": "H:\\Shadowverse\\Shadowverse\\MuMu模拟器x影之诗高清版_Data\\Persistent\\dat\\5V\\5VWBAOSY5R4DH6VM4TJZEADLY4 [Prefabs/UI/CardDetailScreen]",
+          "size": [
+            512,
+            512
+          ],
+          "sha256": "a642253aed50757c4f872d503cb208088677f907a3ddddc4ebf5c99dba6a44d5"
+        }
+      ],
+      "operation": "Native additive RGB converted to transparent straight-alpha light texture",
+      "sha256": "1aa6bc0e75949f6a6c748a36123980ea14cb92ab6f56f66c6e53e81bb2e03ea2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "assets/evolution/rainbow-rays.png",
+      "sources": [
+        {
+          "name": "ef_ring019",
+          "type": "Texture2D",
+          "source": "H:\\Shadowverse\\Shadowverse\\MuMu模拟器x影之诗高清版_Data\\Persistent\\dat\\5V\\5VWBAOSY5R4DH6VM4TJZEADLY4 [Prefabs/UI/CardDetailScreen]",
+          "size": [
+            128,
+            128
+          ],
+          "sha256": "09a58979c14a96845d2cc0b20145f233bdac36fef1ee6cc4f99ef49771813c32"
+        }
+      ],
+      "operation": "Native additive RGB converted to transparent straight-alpha light texture",
+      "sha256": "8cd7af5ae246dc83c01ed042fcd3f3f896b3217674c7cfd7be1375884a15763f",
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "file": "assets/evolution/glow.png",
+      "sources": [
+        {
+          "name": "tex_eff_common_flare_2",
+          "type": "Texture2D",
+          "source": "H:\\Shadowverse\\Shadowverse\\MuMu模拟器x影之诗高清版_Data\\Persistent\\dat\\5V\\5VWBAOSY5R4DH6VM4TJZEADLY4 [Prefabs/UI/CardDetailScreen]",
+          "size": [
+            256,
+            256
+          ],
+          "sha256": "c96be1d953f787b8babe952b68500fc1f19eee4a911583033789cb922559a987"
+        }
+      ],
+      "operation": "Native additive RGB converted to transparent straight-alpha light texture",
+      "sha256": "eff9f88a9d46f58480436fade79ee05c3063814caddb3934dde169f0c6830305",
+      "size": [
+        256,
+        256
+      ]
+    },
+    {
+      "file": "assets/evolution/evolution-button.png",
+      "sources": [
+        {
+          "name": "utx_ic_btl_ep_able",
+          "pathID": 4732524965894400735,
+          "source": "H:\\Shadowverse\\Shadowverse\\MuMu模拟器x影之诗高清版_Data\\Persistent\\dat\\JN\\JNM45OP5Z5AZH33BPLUOK62FZQ [Atlas/DeckList]",
+          "file": "utx_ic_btl_ep_able.png",
+          "size": [
+            96,
+            96
+          ],
+          "sha256": "704f5cb5238b81389805d22e0d49755522df7cba4e73d088d2a45a17b21d352e"
+        }
+      ],
+      "operation": "Exact original96x96 Sprite export; no crop/composition/recolor",
+      "sha256": "704f5cb5238b81389805d22e0d49755522df7cba4e73d088d2a45a17b21d352e",
+      "size": [
+        96,
+        96
+      ]
+    },
+    {
+      "file": "assets/evolution/native-rune-system.json",
+      "sources": [
+        "Prefabs/UI/CardDetailScreen/cmn_deckedit_evo_1"
+      ],
+      "operation": "Original fbx_ef_Cone2 mesh and both native particle transforms, size/angular velocity/alpha/dissolve curves; browser projection and HDR adaptation",
+      "sha256": "c727fcda4b5e91263a2f8b3bc829e8b0e8c34337954dbf90a581c6fb091359f0"
+    },
+    {
+      "file": "assets/evolution/native-runes.png",
+      "sources": [
+        {
+          "name": "ef_neutral001_tra",
+          "type": "Texture2D",
+          "source": "H:\\Shadowverse\\Shadowverse\\MuMu模拟器x影之诗高清版_Data\\Persistent\\dat\\5V\\5VWBAOSY5R4DH6VM4TJZEADLY4 [Prefabs/UI/CardDetailScreen]",
+          "size": [
+            128,
+            64
+          ],
+          "sha256": "210b322a1f3abefc4058fa04a2e93968fe9d6b8d2a3386db337b7ddd800fe7a7"
+        },
+        {
+          "name": "ef_ice003_tra",
+          "type": "Texture2D",
+          "source": "H:\\Shadowverse\\Shadowverse\\MuMu模拟器x影之诗高清版_Data\\Persistent\\dat\\5V\\5VWBAOSY5R4DH6VM4TJZEADLY4 [Prefabs/UI/CardDetailScreen]",
+          "size": [
+            128,
+            128
+          ],
+          "sha256": "8a43ddb7c09c674cc96f386775b2640768da065872f76a979680d151a6ad7e78"
+        },
+        "Material-ef_neutral001_nov_alpadd_001"
+      ],
+      "operation": "Native alpha motif repeated10x; native transition noise20x;32 dissolve phases from actual curve; Canvas HDR approximation",
+      "sha256": "95c0c013e56729165b5342fb42861b88d2a4c9d91900e499043a5897b6bdc7aa",
+      "size": [
+        1280,
+        2048
+      ]
+    }
+  ],
+  "correction": "Exact button4732524965894400735 -> Atlas/DeckList/utx_ic_btl_ep_able; native mesh/curves, full two-sided geometry over card. Browser projection, particles and HDR blending are a port, not exact Unity runtime playback."
+}

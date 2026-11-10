@@ -1,0 +1,1394 @@
+{
+  "schema": 1,
+  "date": "2026-11-10",
+  "scope": "All payload/themes/orchis files and four inherited public fonts",
+  "counts": {
+    "native-game-audio": 1,
+    "export-metadata": 7,
+    "native-game-ui-or-effect": 99,
+    "user-uploaded-chibi": 1,
+    "user-supplied-official-card-art": 4,
+    "inherited-dashboard-font": 4
+  },
+  "files": [
+    {
+      "path": "payload/themes/orchis/native/assets/audio/card-preview-evolve.wav",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/audio/card-preview-evolve.wav",
+      "bytes": 358444,
+      "sha256": "221d8cc1dca1a625912c7fdbddc340decc8c4f69341b31bbc6d998340b38fc41",
+      "category": "native-game-audio",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/audio-provenance.json#/output"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/audio-provenance.json",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/audio-provenance.json",
+      "bytes": 1495,
+      "sha256": "9cf03636d0b8f13d60ec4afba9bb0c3b7041471803f61732bae5cbefd67d0197",
+      "category": "export-metadata",
+      "provenance_refs": [],
+      "rights_status": "Source metadata; artwork grants are not implied",
+      "trace_status": "metadata"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/evolution/evolution-button.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/evolution/evolution-button.png",
+      "bytes": 16341,
+      "sha256": "704f5cb5238b81389805d22e0d49755522df7cba4e73d088d2a45a17b21d352e",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/evolution-provenance.json#/files/7",
+        "payload/themes/orchis/native/assets/evolution-provenance.json#/files/7/sources/0"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/evolution/flare.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/evolution/flare.png",
+      "bytes": 52082,
+      "sha256": "796314ff3cc70b514cd38ce54087f1ef3af316e014ce6ac607ac79eb20405b9d",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/evolution-provenance.json#/files/2"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/evolution/glow.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/evolution/glow.png",
+      "bytes": 11494,
+      "sha256": "eff9f88a9d46f58480436fade79ee05c3063814caddb3934dde169f0c6830305",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/evolution-provenance.json#/files/6"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/evolution/native-rune-system.json",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/evolution/native-rune-system.json",
+      "bytes": 7663,
+      "sha256": "c727fcda4b5e91263a2f8b3bc829e8b0e8c34337954dbf90a581c6fb091359f0",
+      "category": "export-metadata",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/evolution-provenance.json#/files/8"
+      ],
+      "rights_status": "Source metadata; artwork grants are not implied",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/evolution/native-runes.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/evolution/native-runes.png",
+      "bytes": 134354,
+      "sha256": "95c0c013e56729165b5342fb42861b88d2a4c9d91900e499043a5897b6bdc7aa",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/evolution-provenance.json#/files/9"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/evolution/rainbow-halo.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/evolution/rainbow-halo.png",
+      "bytes": 19212,
+      "sha256": "c636ead6b4f764eee076e618711c5ea8578ca7a0ac8b9037c5559403cdaf107e",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/evolution-provenance.json#/files/1",
+        "payload/themes/orchis/native/assets/evolution-provenance.json#/files/1/sources/0"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/evolution/rainbow-rays.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/evolution/rainbow-rays.png",
+      "bytes": 7522,
+      "sha256": "8cd7af5ae246dc83c01ed042fcd3f3f896b3217674c7cfd7be1375884a15763f",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/evolution-provenance.json#/files/5"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/evolution/rays.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/evolution/rays.png",
+      "bytes": 80762,
+      "sha256": "1aa6bc0e75949f6a6c748a36123980ea14cb92ab6f56f66c6e53e81bb2e03ea2",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/evolution-provenance.json#/files/4"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/evolution/rune-ribbon.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/evolution/rune-ribbon.png",
+      "bytes": 9710,
+      "sha256": "210b322a1f3abefc4058fa04a2e93968fe9d6b8d2a3386db337b7ddd800fe7a7",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/evolution-provenance.json#/files/0",
+        "payload/themes/orchis/native/assets/evolution-provenance.json#/files/0/sources/0",
+        "payload/themes/orchis/native/assets/evolution-provenance.json#/files/9/sources/0"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/evolution/twinkle.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/evolution/twinkle.png",
+      "bytes": 5806,
+      "sha256": "9580e3b0b456e20b37cd9ab8b76854e5e7a022fb12b80fa7101c70d4a035e0a0",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/evolution-provenance.json#/files/3"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/evolution-provenance.json",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/evolution-provenance.json",
+      "bytes": 8094,
+      "sha256": "dcf9f77a4d68652cc60a01672f03b456ab34aa435d9c1eb3be111022023411e9",
+      "category": "export-metadata",
+      "provenance_refs": [],
+      "rights_status": "Source metadata; artwork grants are not implied",
+      "trace_status": "metadata"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/hd/button-left.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/hd/button-left.png",
+      "bytes": 1546,
+      "sha256": "f8733296ae014f2f5abd0d22aa6fe6a36a1ecd2fec94ad2ebf982d4b37ca708e",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/hd-provenance.json#/files/25"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/hd/button-middle.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/hd/button-middle.png",
+      "bytes": 735,
+      "sha256": "075edeb60265a9c66adedc270db56c3c0130bb9233aae2d8b9f06d1930481dca",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/hd-provenance.json#/files/26"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/hd/button-right.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/hd/button-right.png",
+      "bytes": 1634,
+      "sha256": "bdb700b8053b7b7fe797665ff54ba4e7ca91c2611a4d85069813bf11c6f4a860",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/hd-provenance.json#/files/27"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/hd/character-window-mask.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/hd/character-window-mask.png",
+      "bytes": 3938,
+      "sha256": "2bc19617c9dafc5591977ddc94b853204bfdda1906ddd66a34c06df4bde1c382",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/hd-provenance.json#/files/17"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/hd/glyph-card.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/hd/glyph-card.png",
+      "bytes": 6393,
+      "sha256": "d246877a1dff2cef1d958cb9cbae92f1fe22fb95b13485b6be44f2be5d4eaae9",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/hd-provenance.json#/files/20"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/hd/glyph-home.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/hd/glyph-home.png",
+      "bytes": 5897,
+      "sha256": "2d6157677e33a9d7a88e6f7240cb592bd1684b61beaf3d032327a20bc5292bc3",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/hd-provenance.json#/files/18"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/hd/glyph-shop.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/hd/glyph-shop.png",
+      "bytes": 4262,
+      "sha256": "8cf829c6903f5819c4640316449af8aeceaebe1390b45099307dcf8447c99122",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/hd-provenance.json#/files/21"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/hd/glyph-solo.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/hd/glyph-solo.png",
+      "bytes": 4532,
+      "sha256": "01d77d2362152164cd4a68c7b92873f685e5b70fb1c208b1f4e7f42b427b8cee",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/hd-provenance.json#/files/19"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/hd/input-left.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/hd/input-left.png",
+      "bytes": 1584,
+      "sha256": "e0c99d6d3862f14fcb23ddc19f75aa206bfb29d8c420567f305b1f7a04ed7dcb",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/hd-provenance.json#/files/28"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/hd/input-middle.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/hd/input-middle.png",
+      "bytes": 1126,
+      "sha256": "fdc196e41a5a21dca547ac34cf26cd2c81b1ff0bd0ac2dfe6f1f80614c1d526e",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/hd-provenance.json#/files/29"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/hd/input-right.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/hd/input-right.png",
+      "bytes": 1707,
+      "sha256": "c2c29a2a4ab5912220a332e395d9ef2793370d921e845905b6d0d605fdec4f8e",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/hd-provenance.json#/files/30"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/hd/panel-frame.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/hd/panel-frame.png",
+      "bytes": 2174,
+      "sha256": "c4e59f04358c6ed774dd8829ed990065c6ae7e5dcdb258f157051ccba08df501",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/hd-provenance.json#/files/22"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/hd/panel-marker-left.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/hd/panel-marker-left.png",
+      "bytes": 461,
+      "sha256": "6ae9fcd4e79163cb86c40ac2267b99c35a51842dc1c3c6be3abb4ff46284929b",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/hd-provenance.json#/files/23"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/hd/panel-marker-right.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/hd/panel-marker-right.png",
+      "bytes": 471,
+      "sha256": "c8418f92ee636b40bc1e9c346971f74508a34c767135bc91d9870669851a5caf",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/hd-provenance.json#/files/24"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/hd/ui_card_base_card_frame.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/hd/ui_card_base_card_frame.png",
+      "bytes": 46556,
+      "sha256": "2a185c00bda7c5b1b7646fb002d15a1e6bd1eca26483ecf85d3b06c23833306e",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/hd-provenance.json#/files/2"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/hd/utx_base_dialog_frame.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/hd/utx_base_dialog_frame.png",
+      "bytes": 14532,
+      "sha256": "2ef2cee9e38841979511c2cea5e3f995d613b04bebe95cf4362cdb13c533d61d",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/hd-provenance.json#/files/0"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/hd/utx_base_dialog_header_deco.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/hd/utx_base_dialog_header_deco.png",
+      "bytes": 26132,
+      "sha256": "62724db89e457eadef95466de4c2706746c14dbd217595cfbc3a4e66106fdfaa",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/hd-provenance.json#/files/3"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/hd/utx_base_footer_menu_active.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/hd/utx_base_footer_menu_active.png",
+      "bytes": 3937,
+      "sha256": "3fadbc470de52c9054af9b0175f60b049f418af17893e13b89fbbaf8e4ebec4a",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/refinement-provenance.json#/1"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/hd/utx_base_shop_benefits_frame.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/hd/utx_base_shop_benefits_frame.png",
+      "bytes": 4211,
+      "sha256": "57b8c8f4a2847db803bea74e90706902e2ee279cb6ba104e0eded2b49b968ab3",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/hd-provenance.json#/files/1"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/hd/utx_cmn_horizontal_tab_arrow.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/hd/utx_cmn_horizontal_tab_arrow.png",
+      "bytes": 813,
+      "sha256": "04a30c80ae263494f79e8a8165844ef5f498d587e71b70f290965014618058f1",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/refinement-provenance.json#/0"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/hd/utx_cmn_horizontal_tab_light.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/hd/utx_cmn_horizontal_tab_light.png",
+      "bytes": 2563,
+      "sha256": "189cf4802c4a95bae15c8919f9416f9fcfaa22ee58853db75eb7c4c0745380ea",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/refinement-provenance.json#/2"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/hd/utx_ic_change.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/hd/utx_ic_change.png",
+      "bytes": 3830,
+      "sha256": "80a7a68459aa17a8984bf8b3dc435ca31e824239fcf796f7848e7fecf0ac683c",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/hd-provenance.json#/files/10"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/hd/utx_ic_deck.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/hd/utx_ic_deck.png",
+      "bytes": 4099,
+      "sha256": "31299de3458d27820d6ded4dd6fb1164bf7bd88fed3ad47ca00452eacea71be9",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/hd-provenance.json#/files/5"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/hd/utx_ic_information.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/hd/utx_ic_information.png",
+      "bytes": 1856,
+      "sha256": "6f67afa60dff4ab7f174286bdf243dd2e8e3b6af33b85b1ae08241a0e9733625",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/hd-provenance.json#/files/9"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/hd/utx_ic_input.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/hd/utx_ic_input.png",
+      "bytes": 2170,
+      "sha256": "3ae78c5f54968f6260ff1c592f3271ac10b97b039f81b77b6522c54a132adcf9",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/hd-provenance.json#/files/4"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/hd/utx_ic_link_card.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/hd/utx_ic_link_card.png",
+      "bytes": 5682,
+      "sha256": "b2b7e91d723af6c23e9c110e6649c77b0fc0eecd3a365643eabc1c9c5145cfaf",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/hd-provenance.json#/files/6"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/hd/utx_ic_log.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/hd/utx_ic_log.png",
+      "bytes": 9071,
+      "sha256": "c7a2235d67068ba984012d6abf81de5df326b101960b897272dcd4b928f86840",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/hd-provenance.json#/files/8"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/hd/utx_ic_mtv_message.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/hd/utx_ic_mtv_message.png",
+      "bytes": 1332,
+      "sha256": "0ce84c81ed8be301e2cfecf2106bb657813fe88ea1376a0b84b595d28b62bade",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/hd-provenance.json#/files/15"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/hd/utx_ic_puzzle.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/hd/utx_ic_puzzle.png",
+      "bytes": 6421,
+      "sha256": "a87682a06c8a088eae305843da3d45286b42e09d53b502968086fb275a7889d0",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/hd-provenance.json#/files/7"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/hd/utx_icon_class_nemesis.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/hd/utx_icon_class_nemesis.png",
+      "bytes": 5569,
+      "sha256": "cf6bb94e6201957ec3a57634b3ab0bea2b386d3cf0a594b226b087e0f3a89933",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/hd-provenance.json#/files/16"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/hd/utx_icon_footer_card_normal.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/hd/utx_icon_footer_card_normal.png",
+      "bytes": 8091,
+      "sha256": "dbf61afe9d3acf1c7655dbe70367254fb7f52a7c36cc93a50f4fa5250b85b655",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/hd-provenance.json#/files/13"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/hd/utx_icon_footer_home_active.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/hd/utx_icon_footer_home_active.png",
+      "bytes": 7443,
+      "sha256": "f56de036f047c9394da1e2022afea91b536a4a22d127d1700ce30c388a133f48",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/refinement-provenance.json#/3"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/hd/utx_icon_footer_home_normal.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/hd/utx_icon_footer_home_normal.png",
+      "bytes": 7744,
+      "sha256": "47b744291e3b3099bfe5331f4675b5a043f9d5dedad0cad8b3bfcb86e8ce0222",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/hd-provenance.json#/files/11",
+        "payload/themes/orchis/native/assets/refinement-provenance.json#/4"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/hd/utx_icon_footer_shop_normal.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/hd/utx_icon_footer_shop_normal.png",
+      "bytes": 5994,
+      "sha256": "14f372094eca280360e4442404d2a637872803fa4c7f5e982cc155bf6b73b319",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/hd-provenance.json#/files/14"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/hd/utx_icon_footer_solo_normal.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/hd/utx_icon_footer_solo_normal.png",
+      "bytes": 5965,
+      "sha256": "c1aded2d61018b2148f479d6d48c46b4386a6108129d22385845c380b7627534",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/hd-provenance.json#/files/12"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/hd-provenance.json",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/hd-provenance.json",
+      "bytes": 22454,
+      "sha256": "630354eed90161a1184a15e5fbed6051690549889fed81c7c8bc7fab485a0e35",
+      "category": "export-metadata",
+      "provenance_refs": [],
+      "rights_status": "Source metadata; artwork grants are not implied",
+      "trace_status": "metadata"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/menu/icon_other_code.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/menu/icon_other_code.png",
+      "bytes": 1964,
+      "sha256": "8b0f6073597d35d3d58c9f579c96108734074a1504e7f5faafaf41e9dcfac205",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/menu/provenance.json#/10"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/menu/icon_other_config.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/menu/icon_other_config.png",
+      "bytes": 1885,
+      "sha256": "0b2728cae6e2d746f0e1a08e93aa91e6c3ddeaf8753ed536037a54b3b7f468d6",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/menu/provenance.json#/2"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/menu/provenance.json",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/menu/provenance.json",
+      "bytes": 3433,
+      "sha256": "2237e011af4c05b4fac3855284bfb33cdd5dae8272c86cf74181074243a95a6b",
+      "category": "export-metadata",
+      "provenance_refs": [],
+      "rights_status": "Source metadata; artwork grants are not implied",
+      "trace_status": "metadata"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/menu/utx_ic_cost_graph.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/menu/utx_ic_cost_graph.png",
+      "bytes": 2332,
+      "sha256": "0acaf14380ce005bd5b6ecc665c408967846af3f1ab5392dce6461052504a4f0",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/menu/provenance.json#/14",
+        "payload/themes/orchis/native/assets/provenance.json#/nativeSprites/23"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/menu/utx_ic_deck.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/menu/utx_ic_deck.png",
+      "bytes": 4127,
+      "sha256": "3cf4c679bef70d8fe2f345174be5a9cbca8c0c073ca38545ddb0ef829b459aaf",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/menu/provenance.json#/3"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/menu/utx_ic_desc.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/menu/utx_ic_desc.png",
+      "bytes": 4584,
+      "sha256": "beff74d0973d561ebe671c69f6ff08e21a5410e66b09f7833724b502c9e5a352",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/menu/provenance.json#/13"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/menu/utx_ic_input.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/menu/utx_ic_input.png",
+      "bytes": 2507,
+      "sha256": "8e85a3271bfa623df0f281b7b9b1e5308a893bd79c7093a35830a65134757469",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/menu/provenance.json#/5"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/menu/utx_ic_link_card.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/menu/utx_ic_link_card.png",
+      "bytes": 5371,
+      "sha256": "d33c5fd0cc6a150cb24aebac96c5eb7c65563ec9d22a9a8fbca08e1d2ec334e0",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/menu/provenance.json#/4"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/menu/utx_ic_log.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/menu/utx_ic_log.png",
+      "bytes": 9211,
+      "sha256": "748047a93307e99a838055398580f2c3b3378e28412141f3c2af36201e464319",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/menu/provenance.json#/9",
+        "payload/themes/orchis/native/assets/provenance.json#/nativeSprites/24"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/menu/utx_ic_menu.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/menu/utx_ic_menu.png",
+      "bytes": 4473,
+      "sha256": "291d04305d5760c592d565e756ec4a683954a1c9bce781f17eff1de423a6e80d",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/menu/provenance.json#/12",
+        "payload/themes/orchis/native/assets/provenance.json#/nativeSprites/25"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/menu/utx_ic_mtv_message.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/menu/utx_ic_mtv_message.png",
+      "bytes": 1384,
+      "sha256": "3d68799e971256a71ecc93137bc9f75047a162126bd83ef594edf971cca94eda",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/menu/provenance.json#/1",
+        "payload/themes/orchis/native/assets/provenance.json#/nativeSprites/26"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/menu/utx_ic_official_user.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/menu/utx_ic_official_user.png",
+      "bytes": 2792,
+      "sha256": "3b608025166869b3ab3ff774cd289d1c45d3c29ec24f7de2d37629709f792bd7",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/menu/provenance.json#/11"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/menu/utx_ic_puzzle.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/menu/utx_ic_puzzle.png",
+      "bytes": 6518,
+      "sha256": "f24a8308193bb0c4b73c1031e9bb565c637b91ed4836032cca939addf6a559c7",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/menu/provenance.json#/7"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/menu/utx_icon_footer_home_normal.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/menu/utx_icon_footer_home_normal.png",
+      "bytes": 8305,
+      "sha256": "49d61a7c369be71d64b66553a3e680601d5f6c9486cc9f2f4ce1dd6f9e20453d",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/menu/provenance.json#/0"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/menu/utx_icon_footer_shop_normal.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/menu/utx_icon_footer_shop_normal.png",
+      "bytes": 6760,
+      "sha256": "396efe6397819bcac22371273bfc68440ef3bfb956e69842ae014b420fdc507d",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/menu/provenance.json#/8"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/menu/utx_icon_footer_solo_normal.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/menu/utx_icon_footer_solo_normal.png",
+      "bytes": 6721,
+      "sha256": "5e1da0175df15fc12eb4f8d46725e29cce900ed09376e36b0f27bc3906067513",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/menu/provenance.json#/6"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/orchis-chibi.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/orchis-chibi.png",
+      "bytes": 2340441,
+      "sha256": "d9d764b804afcb4ffacb7541497e8e2510ba60de336c8dda4478e1e3c4d28758",
+      "category": "user-uploaded-chibi",
+      "provenance_refs": [],
+      "rights_status": "Author and public redistribution permission unresolved",
+      "trace_status": "category-known-exact-export-reference-not-matched"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/orchis-day.jpg",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/orchis-day.jpg",
+      "bytes": 1255162,
+      "sha256": "3c6428cab5f57e3293da6a2fae16a4c4641ad0dab8b669f007551a82ecb0ef73",
+      "category": "user-supplied-official-card-art",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/provenance.json#/originalArt/0"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/orchis-night.jpg",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/orchis-night.jpg",
+      "bytes": 1587117,
+      "sha256": "43733eaaa7ba1353cbbfe43744b17d000b5b5a709c1a2bd778655def45876ba7",
+      "category": "user-supplied-official-card-art",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/provenance.json#/originalArt/1"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/provenance.json",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/provenance.json",
+      "bytes": 18970,
+      "sha256": "20213f17d5e5c006d05c365310718927af86876a4816c616f7786dfcef017cc1",
+      "category": "export-metadata",
+      "provenance_refs": [],
+      "rights_status": "Source metadata; artwork grants are not implied",
+      "trace_status": "metadata"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/refinement-provenance.json",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/refinement-provenance.json",
+      "bytes": 2328,
+      "sha256": "5e2057d566bbd80c120251c8bfd0458cd3116040c40aad5786f2e40511c35896",
+      "category": "export-metadata",
+      "provenance_refs": [],
+      "rights_status": "Source metadata; artwork grants are not implied",
+      "trace_status": "metadata"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/wb/bg-common-scene.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/wb/bg-common-scene.png",
+      "bytes": 1482550,
+      "sha256": "330277456a2244dad484d5928084e51b71b90fca0bb0c25053b6012cc7a614bb",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/provenance.json#/nativeSprites/0"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/wb/bg-home-scene.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/wb/bg-home-scene.png",
+      "bytes": 2845402,
+      "sha256": "8b348b7d1102efe393665f21c8938a9523b33aac793aff687869b55e84d497c4",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/provenance.json#/nativeSprites/1"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/wb/bg-nemesis-scene.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/wb/bg-nemesis-scene.png",
+      "bytes": 1298174,
+      "sha256": "6ba47dc6b5244c46623c96d14066e0ac2337820849d371d99a5a6204893078ff",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/provenance.json#/nativeSprites/2"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/wb/ic_card_collection.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/wb/ic_card_collection.png",
+      "bytes": 3657,
+      "sha256": "942b89ec9068fb37859ec99d2c0bf46f73906ba9cd79b984ec0c84697cbc5557",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/provenance.json#/nativeSprites/3"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/wb/ui_card_base_deck_frame.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/wb/ui_card_base_deck_frame.png",
+      "bytes": 47278,
+      "sha256": "9d61b8f07767b7d2589a4b91c046a5771177b61fc8c287f8289a2e9e4701b02f",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/provenance.json#/nativeSprites/4"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/wb/ui_practice_base_frame.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/wb/ui_practice_base_frame.png",
+      "bytes": 28979,
+      "sha256": "907bbff73cd349e0db2b2f7b056700549e473ed6c4a1038143f3794b3d481ecb",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/provenance.json#/nativeSprites/5"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/wb/utx_base_common_frame2.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/wb/utx_base_common_frame2.png",
+      "bytes": 5417,
+      "sha256": "b909066ba2fd544456a3d1eef52a233eb9fc4d549daba394d5a5417f2a00d333",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/provenance.json#/nativeSprites/6"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/wb/utx_base_deck_set_frame.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/wb/utx_base_deck_set_frame.png",
+      "bytes": 9193,
+      "sha256": "997c3a4c1766502d5456aae8545cca50a711527fa5bca9b5a78272ba739f8d73",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/provenance.json#/nativeSprites/7"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/wb/utx_base_footer_00.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/wb/utx_base_footer_00.png",
+      "bytes": 59934,
+      "sha256": "e09e81c0c0b2380c9001fa4ca1e60251d1ed4f40a0fe7b6aacfd87ad117dca23",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/provenance.json#/nativeSprites/8"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/wb/utx_base_footer_01.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/wb/utx_base_footer_01.png",
+      "bytes": 2284,
+      "sha256": "b0ce66e3c60b6793789f27aae25c377b6e06a2fd7f81239ceb39e859a0e4715f",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/provenance.json#/nativeSprites/9"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/wb/utx_base_home_text01.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/wb/utx_base_home_text01.png",
+      "bytes": 45051,
+      "sha256": "ab5f7b8506eade6463736e2d57554d757f98af912ae4faae3b1c7bf2011d5fd4",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/provenance.json#/nativeSprites/10"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/wb/utx_base_text_box.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/wb/utx_base_text_box.png",
+      "bytes": 239,
+      "sha256": "51cf853adbe999a316d01259db4831d701a1ecbc839cfe5cb29976428cbc0985",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/provenance.json#/nativeSprites/11"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/wb/utx_btn_common_00_m.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/wb/utx_btn_common_00_m.png",
+      "bytes": 18394,
+      "sha256": "ac78e79d80d429d4c8b08dbdb37065acc41ba51028ee3ddbd013d419a571443a",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/provenance.json#/nativeSprites/12"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/wb/utx_btn_common_00_m_lightblue.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/wb/utx_btn_common_00_m_lightblue.png",
+      "bytes": 18142,
+      "sha256": "8a92f1f92b8745fdacbd1223ab60ce6f501bc807c6569dbd513283569fcaceba",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/provenance.json#/nativeSprites/13"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/wb/utx_btn_common_00_s_lightblue.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/wb/utx_btn_common_00_s_lightblue.png",
+      "bytes": 16627,
+      "sha256": "497070b9b69457d1fbdc9d98ea7b322e0c67abe632beac7ffa94bd4fb570064a",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "category-known-exact-export-reference-not-matched"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/wb/utx_btn_common_00_ss.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/wb/utx_btn_common_00_ss.png",
+      "bytes": 10361,
+      "sha256": "403fadb870199267a1fdd0c2bb131103b7fe424cc072c56d7d29e07f0d5c6d53",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/provenance.json#/nativeSprites/14"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/wb/utx_btn_common_01_m.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/wb/utx_btn_common_01_m.png",
+      "bytes": 27398,
+      "sha256": "361896e3f166034b9cf43f7185c612e168b084d5e7c00bd87756bdbd08df87da",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/provenance.json#/nativeSprites/15"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/wb/utx_btn_common_puzzle.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/wb/utx_btn_common_puzzle.png",
+      "bytes": 17219,
+      "sha256": "968f75e963433dbf04e94571aa83eb7f20492681633de6f680030fd4b6fc081e",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "category-known-exact-export-reference-not-matched"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/wb/utx_btn_common_tab_01_left_off.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/wb/utx_btn_common_tab_01_left_off.png",
+      "bytes": 8263,
+      "sha256": "b5e95d8a08aa09ee4e84349bf60b374143b61ae98659757f233a9bcfd9152b15",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/provenance.json#/nativeSprites/16"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/wb/utx_btn_common_tab_01_left_on.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/wb/utx_btn_common_tab_01_left_on.png",
+      "bytes": 8963,
+      "sha256": "3cc2296590fbed9bf153f3ceeb7bfd3ef252a4da08893a23b73131367c7fc9a8",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/provenance.json#/nativeSprites/17"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/wb/utx_btn_common_tab_01_right_off.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/wb/utx_btn_common_tab_01_right_off.png",
+      "bytes": 8087,
+      "sha256": "4af97d75264c9d38b1837d185b4fb0b55e01194f8b41b59da232b9d3df3446a6",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/provenance.json#/nativeSprites/18"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/wb/utx_btn_common_tab_01_right_on.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/wb/utx_btn_common_tab_01_right_on.png",
+      "bytes": 9284,
+      "sha256": "7c76ee9443f9b9cccc388ae07635082c5636e8226b5d30d1b1f2f6ab7fdcf67e",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/provenance.json#/nativeSprites/19"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/wb/utx_cmn_horizontal_tab_line.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/wb/utx_cmn_horizontal_tab_line.png",
+      "bytes": 173,
+      "sha256": "61827a107f3856b7cd7845a8af951af6cd7a9e96b98cbe874e96afc630ac1b45",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/provenance.json#/nativeSprites/20"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/wb/utx_cmn_subtitle_icon01.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/wb/utx_cmn_subtitle_icon01.png",
+      "bytes": 571,
+      "sha256": "6140e80074e9850cea3700e8b2a539369289392ea4e9b167ce9a6ae8ca971a8a",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/provenance.json#/nativeSprites/21"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/wb/utx_ic_change.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/wb/utx_ic_change.png",
+      "bytes": 4155,
+      "sha256": "addac5f3a8e5c927eec65ac5a5c3bae76016f066e5427ef560d5c1bc3cfc6c51",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/provenance.json#/nativeSprites/22"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/wb/utx_ic_cost_graph.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/wb/utx_ic_cost_graph.png",
+      "bytes": 2332,
+      "sha256": "0acaf14380ce005bd5b6ecc665c408967846af3f1ab5392dce6461052504a4f0",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/menu/provenance.json#/14",
+        "payload/themes/orchis/native/assets/provenance.json#/nativeSprites/23"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/wb/utx_ic_log.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/wb/utx_ic_log.png",
+      "bytes": 9211,
+      "sha256": "748047a93307e99a838055398580f2c3b3378e28412141f3c2af36201e464319",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/menu/provenance.json#/9",
+        "payload/themes/orchis/native/assets/provenance.json#/nativeSprites/24"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/wb/utx_ic_menu.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/wb/utx_ic_menu.png",
+      "bytes": 4473,
+      "sha256": "291d04305d5760c592d565e756ec4a683954a1c9bce781f17eff1de423a6e80d",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/menu/provenance.json#/12",
+        "payload/themes/orchis/native/assets/provenance.json#/nativeSprites/25"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/wb/utx_ic_mtv_message.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/wb/utx_ic_mtv_message.png",
+      "bytes": 1384,
+      "sha256": "3d68799e971256a71ecc93137bc9f75047a162126bd83ef594edf971cca94eda",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/menu/provenance.json#/1",
+        "payload/themes/orchis/native/assets/provenance.json#/nativeSprites/26"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/wb/utx_ic_room_id_copy.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/wb/utx_ic_room_id_copy.png",
+      "bytes": 2075,
+      "sha256": "9e4cd8b3358fb196063d87b31437a1b198d589abef3082a9ebb223a55c20a59b",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/provenance.json#/nativeSprites/27"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/wb/utx_ic_search.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/wb/utx_ic_search.png",
+      "bytes": 3151,
+      "sha256": "45aa00f8ad28c58bc8c619c1429e044fa79c21797fd7a539822e014f63ae9b26",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/provenance.json#/nativeSprites/28"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/wb/utx_ic_tab_arrow_off.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/wb/utx_ic_tab_arrow_off.png",
+      "bytes": 2212,
+      "sha256": "83f3a66338dc6ea1345ae6d22a9d6ae3ebfef497bc5b147765aa33130f310d99",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/provenance.json#/nativeSprites/29"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/wb/utx_icon_class_nemesis.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/wb/utx_icon_class_nemesis.png",
+      "bytes": 4968,
+      "sha256": "d5331803a5cb554608e80df2d8d235944af5f570878b00b6df770284a182c9db",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/provenance.json#/nativeSprites/30"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/wb/utx_icon_footer_home_active.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/wb/utx_icon_footer_home_active.png",
+      "bytes": 7840,
+      "sha256": "ca400a5cd2e79733c35aebbc8c6abd6add6ae0cd3b38425adbc1533179482a95",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/provenance.json#/nativeSprites/31"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/wb/utx_icon_footer_metaverse_active.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/wb/utx_icon_footer_metaverse_active.png",
+      "bytes": 5748,
+      "sha256": "56af8aa8fd013c04c42a2b40270e494ec548e23b12f9284c0292c105e7c8d4e7",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/provenance.json#/nativeSprites/32"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/wb/utx_icon_footer_shop_active.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/wb/utx_icon_footer_shop_active.png",
+      "bytes": 6405,
+      "sha256": "d30ea38df98b984730ac9f01146d95688fbeb8af4dbfd9d06af5569c219c913a",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/provenance.json#/nativeSprites/33"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/wb/utx_icon_footer_solo_active.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/wb/utx_icon_footer_solo_active.png",
+      "bytes": 6157,
+      "sha256": "e35127538e1845a9ddb26117b8888da2cc8ae47fbcb18e52752ff42042e8ddb7",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/provenance.json#/nativeSprites/34"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/wb/utx_line_common_01.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/wb/utx_line_common_01.png",
+      "bytes": 413,
+      "sha256": "77a858af7dc512a3e58ce014e4836d8794f020695f70332ebe79196a3da433ac",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/provenance.json#/nativeSprites/35"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/wb/utx_line_common_05.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/wb/utx_line_common_05.png",
+      "bytes": 459,
+      "sha256": "bcdbb304e8e0e97598c35d936816e15b1e3e5b854a69ea5cfe5cf8735f831c6e",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/provenance.json#/nativeSprites/36"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/wb/utx_line_common_10.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/wb/utx_line_common_10.png",
+      "bytes": 919,
+      "sha256": "0092a9c7a797cca7e404940d179aece12af28fd83c0930309d9f937e39749f37",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/provenance.json#/nativeSprites/37"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/orchis-day.jpg",
+      "source_copy": "frontend-source/public/themes/orchis/orchis-day.jpg",
+      "bytes": 1255162,
+      "sha256": "3c6428cab5f57e3293da6a2fae16a4c4641ad0dab8b669f007551a82ecb0ef73",
+      "category": "user-supplied-official-card-art",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/provenance.json#/originalArt/0"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/themes/orchis/orchis-original.jpg",
+      "source_copy": "frontend-source/public/themes/orchis/orchis-original.jpg",
+      "bytes": 1587117,
+      "sha256": "43733eaaa7ba1353cbbfe43744b17d000b5b5a709c1a2bd778655def45876ba7",
+      "category": "user-supplied-official-card-art",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/provenance.json#/originalArt/1"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
+    },
+    {
+      "path": "payload/fonts/ArkPixel12-ZhHans.woff2",
+      "source_copy": "frontend-source/public/fonts/ArkPixel12-ZhHans.woff2",
+      "bytes": 219068,
+      "sha256": "e2278ca5220855c1d0fd198ef24e573a8396a5db907b3172774951d6a8fd57b9",
+      "category": "inherited-dashboard-font",
+      "upstream_license_url": "https://raw.githubusercontent.com/TakWolf/ark-pixel-font/master/LICENSE-OFL",
+      "license_file": "docs/licenses/ArkPixel-OFL.txt",
+      "rights_status": "Upstream OFL notice included; inherited font version/modifications not independently audited"
+    },
+    {
+      "path": "payload/fonts/DepartureMono-Regular.woff2",
+      "source_copy": "frontend-source/public/fonts/DepartureMono-Regular.woff2",
+      "bytes": 22496,
+      "sha256": "5b4fed1daa90708aa9c6ee1190abca9dc22164a1c1def0020386e46b61038cfb",
+      "category": "inherited-dashboard-font",
+      "upstream_license_url": "https://raw.githubusercontent.com/rektdeckard/departure-mono/main/public/assets/LICENSE",
+      "license_file": "docs/licenses/DepartureMono-OFL.txt",
+      "rights_status": "Upstream OFL notice included; inherited font version/modifications not independently audited"
+    },
+    {
+      "path": "payload/fonts/Jersey20-Regular.ttf",
+      "source_copy": "frontend-source/public/fonts/Jersey20-Regular.ttf",
+      "bytes": 128576,
+      "sha256": "76670d7e8826860e3d2f2846b88bc1652135b8d54b6adfa5a87649b9fa4bd3b4",
+      "category": "inherited-dashboard-font",
+      "upstream_license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/jersey20/OFL.txt",
+      "license_file": "docs/licenses/Jersey20-OFL.txt",
+      "rights_status": "Upstream OFL notice included; inherited font version/modifications not independently audited"
+    },
+    {
+      "path": "payload/fonts/JetBrainsMono-Medium.ttf",
+      "source_copy": "frontend-source/public/fonts/JetBrainsMono-Medium.ttf",
+      "bytes": 273860,
+      "sha256": "31c92d01a8a08528b718a43addf0ad3df0af2ca4b7b3290a452f70f358e14d3d",
+      "category": "inherited-dashboard-font",
+      "upstream_license_url": "https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/OFL.txt",
+      "license_file": "docs/licenses/JetBrainsMono-OFL.txt",
+      "rights_status": "Upstream OFL notice included; inherited font version/modifications not independently audited"
+    }
+  ]
+}

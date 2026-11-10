@@ -1,0 +1,77 @@
+[
+  {
+    "name": "utx_cmn_horizontal_tab_arrow",
+    "source": "H:\\Shadowverse\\Shadowverse\\MuMu模拟器x影之诗高清版_Data\\Persistent\\dat\\25\\25NHZJMRFEUMFZMRN534NEKKOU [Assets/_Wizard2/Resources/Atlas/Common]",
+    "size": [
+      44,
+      22
+    ],
+    "sha256": "04a30c80ae263494f79e8a8165844ef5f498d587e71b70f290965014618058f1",
+    "border": {
+      "left": 0.0,
+      "bottom": 0.0,
+      "right": 0.0,
+      "top": 0.0
+    }
+  },
+  {
+    "name": "utx_base_footer_menu_active",
+    "source": "H:\\Shadowverse\\Shadowverse\\MuMu模拟器x影之诗高清版_Data\\Persistent\\dat\\25\\25NHZJMRFEUMFZMRN534NEKKOU [Assets/_Wizard2/Resources/Atlas/Common]",
+    "size": [
+      400,
+      24
+    ],
+    "sha256": "3fadbc470de52c9054af9b0175f60b049f418af17893e13b89fbbaf8e4ebec4a",
+    "border": {
+      "left": 0.0,
+      "bottom": 0.0,
+      "right": 0.0,
+      "top": 0.0
+    }
+  },
+  {
+    "name": "utx_cmn_horizontal_tab_light",
+    "source": "H:\\Shadowverse\\Shadowverse\\MuMu模拟器x影之诗高清版_Data\\Persistent\\dat\\25\\25NHZJMRFEUMFZMRN534NEKKOU [Assets/_Wizard2/Resources/Atlas/Common]",
+    "size": [
+      184,
+      40
+    ],
+    "sha256": "189cf4802c4a95bae15c8919f9416f9fcfaa22ee58853db75eb7c4c0745380ea",
+    "border": {
+      "left": 0.0,
+      "bottom": 0.0,
+      "right": 0.0,
+      "top": 0.0
+    }
+  },
+  {
+    "name": "utx_icon_footer_home_active",
+    "source": "H:\\Shadowverse\\Shadowverse\\MuMu模拟器x影之诗高清版_Data\\Persistent\\dat\\25\\25NHZJMRFEUMFZMRN534NEKKOU [Assets/_Wizard2/Resources/Atlas/Common]",
+    "size": [
+      128,
+      128
+    ],
+    "sha256": "f56de036f047c9394da1e2022afea91b536a4a22d127d1700ce30c388a133f48",
+    "border": {
+      "left": 0.0,
+      "bottom": 0.0,
+      "right": 0.0,
+      "top": 0.0
+    }
+  },
+  {
+    "name": "utx_icon_footer_home_normal",
+    "source": "H:\\Shadowverse\\Shadowverse\\MuMu模拟器x影之诗高清版_Data\\Persistent\\dat\\25\\25NHZJMRFEUMFZMRN534NEKKOU [Assets/_Wizard2/Resources/Atlas/Common]",
+    "size": [
+      128,
+      128
+    ],
+    "sha256": "47b744291e3b3099bfe5331f4675b5a043f9d5dedad0cad8b3bfcb86e8ce0222",
+    "border": {
+      "left": 0.0,
+      "bottom": 0.0,
+      "right": 0.0,
+      "top": 0.0
+    }
+  }
+]

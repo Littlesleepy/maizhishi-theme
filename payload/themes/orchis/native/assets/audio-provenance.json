@@ -1,0 +1,35 @@
+{
+  "client": "MuMu模拟器x影之诗高清版 · Windows",
+  "source": [
+    {
+      "path": "H:\\Shadowverse\\Shadowverse\\MuMu模拟器x影之诗高清版_Data\\StreamingAssets\\preinstall.acb",
+      "sha256": "470896c631be454924af246e399521ee999d062e2eced5562b441d7803a3d2c2"
+    },
+    {
+      "path": "H:\\Shadowverse\\Shadowverse\\MuMu模拟器x影之诗高清版_Data\\StreamingAssets\\preinstall.awb",
+      "sha256": "bbd7d8946deb1ad6b7ebc1b528b1add7f6f43b20a6172d77859237550255d74d"
+    }
+  ],
+  "cue": {
+    "name": "se_sys_mypage_evolve",
+    "index": 29,
+    "total": 41,
+    "codec": "CRI HCA"
+  },
+  "output": {
+    "file": "assets/audio/card-preview-evolve.wav",
+    "sha256": "221d8cc1dca1a625912c7fdbddc340decc8c4f69341b31bbc6d998340b38fc41",
+    "channels": 2,
+    "sampleRate": 48000,
+    "samples": 89600,
+    "duration": 1.8666666666666667
+  },
+  "operation": "Original CRI cue decoded to PCM16 WAV with official vgmstream; no additional gain, no remix, no trimming, no speed change. The runtime WAV is byte-identical to this decoded export.",
+  "decoder": {
+    "release": "r2168",
+    "url": "https://github.com/vgmstream/vgmstream/releases/download/r2168/vgmstream-win64.zip",
+    "sha256": "692d45070852a35c1fa42726aa3c9de528e44eec925d37d99b1074256b99a229"
+  },
+  "selection": "Replaces rejected Wwise PLAY_FX_SYS_CARDINFOEVOLVE media608823880. User identified that earlier selection as incorrect.",
+  "rights": "© Cygames, Inc."
+}

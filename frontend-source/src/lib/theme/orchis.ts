@@ -1,0 +1,68 @@
+import { defaultDarkTokens, defaultLightTokens } from './tokens'
+import type { ThemeTokens } from './tokens'
+
+/** Independent palette; no mutation of built-in presets or the saved light/dark preference. */
+export const orchisTokens: ThemeTokens = {
+  ...defaultDarkTokens,
+  color: {
+    ...defaultDarkTokens.color,
+    background: '223 33% 10%',
+    foreground: '220 28% 92%',
+    card: '221 30% 14%',
+    'card-foreground': '220 28% 92%',
+    popover: '218 30% 13%',
+    'popover-foreground': '220 28% 92%',
+    primary: '215 54% 75%',
+    'primary-foreground': '219 33% 10%',
+    'primary-gradient': 'none',
+    secondary: '216 30% 20%',
+    'secondary-foreground': '220 28% 92%',
+    accent: '216 30% 23%',
+    'accent-foreground': '217 56% 84%',
+    muted: '218 25% 17%',
+    'muted-foreground': '216 19% 62%',
+    border: '218 25% 28%',
+    input: '217 25% 23%',
+    ring: '217 45% 72%',
+    'chart-1': '212 56% 72%',
+    'chart-2': '152 25% 68%',
+    'chart-3': '262 38% 72%',
+  },
+  typography: {
+    ...defaultDarkTokens.typography,
+    'font-family-base': '"Microsoft YaHei UI", "Microsoft YaHei", "PingFang SC", sans-serif',
+    'font-size-base': '0.875rem',
+  },
+  visual: { ...defaultDarkTokens.visual, 'radius-md': '0.375rem', 'radius-lg': '0.5rem' },
+  layout: { ...defaultDarkTokens.layout },
+}
+
+export const orchisLightTokens: ThemeTokens = {
+  ...defaultLightTokens,
+  color: {
+    ...defaultLightTokens.color,
+    background: '222 36% 96%',
+    foreground: '219 33% 15%',
+    card: '225 44% 99%',
+    'card-foreground': '219 33% 15%',
+    popover: '220 38% 99%',
+    'popover-foreground': '219 33% 15%',
+    primary: '216 44% 38%',
+    'primary-foreground': '220 38% 99%',
+    'primary-gradient': 'none',
+    secondary: '217 30% 91%',
+    'secondary-foreground': '219 33% 20%',
+    accent: '217 35% 88%',
+    'accent-foreground': '219 33% 20%',
+    muted: '218 24% 93%',
+    'muted-foreground': '217 18% 43%',
+    border: '216 24% 82%',
+    input: '216 24% 82%',
+    ring: '216 34% 38%',
+    'chart-1': '214 50% 45%',
+    'chart-2': '204 48% 54%',
+    'chart-3': '265 36% 49%',
+  },
+  typography: { ...orchisTokens.typography },
+  visual: { ...orchisTokens.visual },
+}

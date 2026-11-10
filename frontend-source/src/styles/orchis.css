@@ -1,0 +1,412 @@
+@import './orchis-demo.css';
+@import './orchis-bridge.css';
+/* Native client art, scoped to the independent fourth style. Business components stay original. */
+:root[data-dashboard-style='orchis'] {
+  --orchis-panel: linear-gradient(130deg, #143144f7, #0d2235f7);
+  --orchis-utility: linear-gradient(140deg, #153448f5, #0d263bf5);
+  --orchis-ink: #f2efe4;
+  --orchis-muted: #aabfc9;
+  --orchis-gold: #cdbb85;
+  --orchis-blue: #73d0ed;
+  --orchis-line: #cebe8c75;
+  --orchis-fine: #bbc9cb24;
+  --orchis-control: linear-gradient(180deg, #21495d, #123247);
+  --orchis-rose: #a46079;
+  --orchis-nav-ink: #c7b88b;
+  --orchis-nav-hover: #f4dfab;
+  --orchis-nav-active: #80d9ee;
+  --orchis-nav-glow: #6ed3ed55;
+  &.light {
+    --orchis-panel: linear-gradient(130deg, #fbfcf7f7, #e7f0f1f7);
+    --orchis-utility: linear-gradient(140deg, #f8faf3f5, #e6eef0f5);
+    --orchis-ink: #233d4b;
+    --orchis-muted: #617984;
+    --orchis-gold: #9c8554;
+    --orchis-blue: #287b9a;
+    --orchis-line: #9077407a;
+    --orchis-fine: #3e677929;
+    --orchis-control: linear-gradient(180deg, #fafbf2, #dcebec);
+    --orchis-rose: #985168;
+    --orchis-nav-ink: #80682e;
+    --orchis-nav-hover: #634b13;
+    --orchis-nav-active: #146f87;
+    --orchis-nav-glow: #247f9933;
+  }
+  [data-dashboard-header] {
+    background: linear-gradient(0deg, #081829ee, #0c2033ee);
+    border-bottom: 1px solid var(--orchis-gold);
+    color: var(--orchis-ink);
+  }
+  &.light [data-dashboard-header] {
+    background: linear-gradient(0deg, #dbe9e9f5, #f8faf2f5);
+  }
+  [data-dashboard-sidebar] {
+    border-right-color: var(--orchis-line);
+    background: var(--orchis-panel);
+  }
+  [data-dashboard-sidebar] a {
+    border-radius: 0;
+  }
+  [data-dashboard-sidebar] a[aria-current='page'] {
+    color: var(--orchis-gold);
+    background: var(--orchis-control);
+  }
+  [data-dashboard-sidebar] a {
+    position: relative;
+    font-weight: 400;
+    color: var(--orchis-ink);
+  }
+  .orchis-nav-icon {
+    position: relative;
+    display: block;
+    flex: none;
+    width: 28px;
+    height: 28px;
+    color: var(--orchis-nav-ink);
+    filter: var(--orchis-nav-effect, none);
+    pointer-events: none;
+    transition:
+      color 160ms ease,
+      filter 160ms ease;
+  }
+  .orchis-nav-glyph {
+    position: absolute;
+    display: block;
+    background: currentColor;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+    -webkit-mask-position: center;
+    mask-position: center;
+    mask-mode: luminance;
+  }
+  .orchis-nav-filter {
+    position: absolute;
+    width: 0;
+    height: 0;
+    overflow: visible;
+  }
+  .orchis-nav-fallback {
+    position: absolute;
+    inset: 2.5px;
+    width: 23px;
+    height: 23px;
+    stroke-width: 1.75;
+    color: inherit;
+  }
+  [data-dashboard-nav-item='true']:is(:hover, :focus-visible) .orchis-nav-icon {
+    color: var(--orchis-nav-hover);
+  }
+  [data-dashboard-nav-item='true'][data-active='true'] .orchis-nav-icon {
+    color: var(--orchis-nav-active);
+    --orchis-nav-effect: drop-shadow(0 0 4px var(--orchis-nav-glow));
+  }
+  [data-dashboard-sidebar] a[aria-current='page'] {
+    border: 1px solid var(--orchis-line);
+    background: var(--orchis-control);
+  }
+  .orchis-shell-brand {
+    gap: 10px;
+    color: var(--orchis-ink);
+  }
+  .orchis-brand-mark {
+    width: 30px;
+    height: 30px;
+    flex: none;
+    object-fit: contain;
+    filter: brightness(0.9) sepia(0.5);
+  }
+  &.light .orchis-brand-mark {
+    filter: brightness(0.55) sepia(0.5);
+  }
+  .orchis-brand-word {
+    font:
+      20px/1.2 Georgia,
+      serif;
+    letter-spacing: 1px;
+    transition: opacity 0.2s;
+  }
+  .orchis-brand-word small {
+    display: block;
+    font:
+      7px/1.5 Georgia,
+      serif;
+    letter-spacing: 2px;
+    margin-top: 5px;
+  }
+  [data-dashboard-topbar-pill] {
+    display: none;
+  }
+  [data-dashboard-workspace-tabs] {
+    gap: 4px;
+  }
+  [data-dashboard-workspace-tabs] [data-workspace-highlighted],
+  [data-dashboard-header-search] {
+    --control-h: 32px;
+    --cap: 16px;
+    position: relative;
+    isolation: isolate;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+  }
+  [data-dashboard-workspace-tabs] [data-workspace-highlighted]::before,
+  [data-dashboard-header-search]::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    z-index: -1;
+    background:
+      url('/themes/orchis/native/assets/hd/button-left.png') left/var(--cap) 100% no-repeat,
+      url('/themes/orchis/native/assets/hd/button-right.png') right/var(--cap) 100% no-repeat,
+      url('/themes/orchis/native/assets/hd/button-middle.png') center/calc(100% - 32px) 100%
+        no-repeat;
+  }
+  [data-dashboard-workspace-tabs] [data-workspace-highlighted]::after,
+  [data-dashboard-header-search]::after {
+    content: '';
+    position: absolute;
+    inset: 2px;
+    z-index: -2;
+    pointer-events: none;
+    background: var(--orchis-control);
+    clip-path: polygon(
+      7px 0,
+      calc(100% - 7px) 0,
+      100% 7px,
+      100% calc(100% - 7px),
+      calc(100% - 7px) 100%,
+      7px 100%,
+      0 calc(100% - 7px),
+      0 7px
+    );
+  }
+  [data-dashboard-workspace-tabs] [data-workspace-highlighted='true'] {
+    color: var(--orchis-gold);
+  }
+  [data-dashboard-workspace-tabs] span {
+    font-family: 'SimSun', serif;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 1px;
+  }
+  [data-dashboard-header-search] {
+    height: 32px;
+  }
+  [data-dashboard-header-search] input {
+    border: 0;
+    background: transparent;
+    color: var(--orchis-ink);
+    box-shadow: none;
+    font-size: 12px;
+  }
+  [role='dialog'] {
+    border-radius: 0;
+    border: 10px solid transparent;
+    border-image: url('/themes/orchis/native/assets/hd/utx_base_dialog_frame.png') 44 98 / 14px 31px;
+    background: var(--orchis-panel);
+    color: var(--orchis-ink);
+  }
+  [role='dialog'] h2 {
+    color: var(--orchis-gold);
+    font-family: 'SimSun', serif;
+  }
+}
+/* Portal-owned animation layers live outside the home tree, but still require the style gate. */
+:root[data-dashboard-style='orchis'] {
+  .orchis-header-control {
+    --control-h: 32px;
+    --cap: 16px;
+    position: relative;
+    isolation: isolate;
+    flex: none;
+    width: 32px;
+    height: 32px;
+    min-width: 32px;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    color: var(--orchis-gold);
+    background: transparent !important;
+  }
+  .orchis-header-control::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+    background:
+      url('/themes/orchis/native/assets/hd/button-left.png') left / var(--cap) 100% no-repeat,
+      url('/themes/orchis/native/assets/hd/button-right.png') right / var(--cap) 100% no-repeat;
+  }
+  .orchis-header-control::after {
+    content: '';
+    position: absolute;
+    inset: 2px;
+    z-index: -2;
+    pointer-events: none;
+    background: var(--orchis-control);
+    clip-path: polygon(
+      8px 0,
+      calc(100% - 8px) 0,
+      100% 8px,
+      100% calc(100% - 8px),
+      calc(100% - 8px) 100%,
+      8px 100%,
+      0 calc(100% - 8px),
+      0 8px
+    );
+  }
+  .orchis-header-control:hover::after {
+    filter: brightness(1.12);
+  }
+  .orchis-header-control:focus-visible {
+    outline: 2px solid var(--orchis-blue);
+    outline-offset: 3px;
+  }
+  .orchis-header-control > svg {
+    width: 16px;
+    height: 16px;
+  }
+  .orchis-collapse-arrow {
+    width: 16px;
+    height: 16px;
+    object-fit: contain;
+    transform: rotate(90deg);
+    filter: brightness(1.75) sepia(0.45) saturate(0.7);
+  }
+  &.light .orchis-collapse-arrow {
+    filter: brightness(0.75) sepia(0.4);
+  }
+  [data-topbar-mascot-toggle='true'] {
+    perspective: none;
+  }
+  [data-topbar-mascot-toggle='true']:focus-visible {
+    outline-color: var(--orchis-blue);
+  }
+  .orchis-topbar-toggle {
+    position: absolute;
+    top: 0;
+    right: 60px;
+    z-index: 40;
+    width: 96px;
+    height: 24px;
+    padding: 0;
+    border: 0;
+    overflow: visible;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+  .orchis-topbar-toggle[data-orchis-exiting='true'] {
+    pointer-events: none;
+  }
+  .orchis-topbar-mascot {
+    position: relative;
+    display: block;
+    width: 96px;
+    height: 24px;
+  }
+  .orchis-peek-window {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 96px;
+    height: 24px;
+    overflow: visible;
+    pointer-events: none;
+  }
+  .orchis-peek-window img {
+    display: block;
+    width: 96px;
+    height: 96px;
+    max-width: none;
+    /* Keep the full original intact; rotate about the hat so rest and reveal stay aligned. */
+    transform-origin: 66px 14px;
+    transform: translate(-36px, -1px) rotate(152deg);
+    filter: drop-shadow(0 2px 2px #00122350);
+    pointer-events: none;
+    transition: transform 480ms cubic-bezier(0.22, 1.2, 0.36, 1);
+  }
+  [data-topbar-mascot-toggle='true']:is([data-orchis-peek-hovered='true'], :focus-visible)
+    .orchis-peek-window
+    img {
+    transform: translate(-36px, 36px) rotate(190deg);
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .orchis-peek-window img {
+      transition: none;
+    }
+  }
+  .orchis-evolution-toggle {
+    flex: none;
+    display: grid;
+    place-items: center;
+    width: 46px;
+    height: 46px;
+    border: 0;
+    border-radius: 50%;
+    padding: 0;
+    color: #fff7df;
+    font:
+      13px 'SimSun',
+      serif;
+    cursor: pointer;
+    background: url('/themes/orchis/native/assets/evolution/evolution-button.png') center/contain
+      no-repeat;
+    text-shadow:
+      0 1px 2px #684016,
+      1px 0 #8e5f25,
+      -1px 0 #8e5f25;
+  }
+  .orchis-evolution-toggle:disabled {
+    opacity: 1;
+    cursor: wait;
+  }
+  .orchis-evolution-toggle:focus-visible {
+    outline: 2px solid var(--orchis-blue);
+    outline-offset: 3px;
+  }
+  .evolution-layer {
+    position: fixed;
+    inset: 0;
+    overflow: hidden;
+    pointer-events: none;
+    z-index: 60;
+  }
+  .evolution-canvas {
+    position: absolute;
+    pointer-events: none;
+  }
+  .evolution-back {
+    z-index: 0;
+  }
+  .evolution-front {
+    z-index: 6;
+  }
+  .character-picture::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: #fffdf0;
+    opacity: var(--evolution-flash, 0);
+    pointer-events: none;
+    z-index: 7;
+  }
+  .is-evolving .character-display-frame {
+    filter: brightness(calc(1 + var(--evolution-flash, 0) * 3)) drop-shadow(0 0 8px #b8e8ff);
+  }
+  @media (max-width: 1023px) {
+    .orchis-evolution-toggle {
+      width: 39px;
+      height: 39px;
+      font-size: 11px;
+    }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .evolution-layer {
+      display: none;
+    }
+  }
+}

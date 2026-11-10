@@ -1,0 +1,747 @@
+{
+  "client": "MuMu模拟器x影之诗高清版 · Windows",
+  "sourceRoot": "H:/Shadowverse/Shadowverse/MuMu模拟器x影之诗高清版_Data",
+  "access": "Direct read-only resource files; no emulator dependency",
+  "rights": "© Cygames, Inc.; local user-requested visual prototype",
+  "files": [
+    {
+      "file": "assets/hd/utx_base_dialog_frame.png",
+      "source": "H:\\Shadowverse\\Shadowverse\\MuMu模拟器x影之诗高清版_Data\\StreamingAssets\\HybridBundles\\Windows\\assets\\_wizard2\\resources\\ui\\common\\utx_base_dialog_frame.png",
+      "sourceName": "utx_base_dialog_frame",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "operation": "Original Sprite export; unchanged pixels",
+      "sha256": "2ef2cee9e38841979511c2cea5e3f995d613b04bebe95cf4362cdb13c533d61d",
+      "nativeBorder": {
+        "left": 98.0,
+        "bottom": 44.0,
+        "right": 98.0,
+        "top": 44.0
+      }
+    },
+    {
+      "file": "assets/hd/utx_base_shop_benefits_frame.png",
+      "source": "H:\\Shadowverse\\Shadowverse\\MuMu模拟器x影之诗高清版_Data\\Persistent\\dat\\F5\\F56NFBSA6RC5FGXT2ERNVRNVPY [UI/Shop/utx_base_shop_benefits_frame]",
+      "sourceName": "utx_base_shop_benefits_frame",
+      "sourceSize": [
+        241,
+        169
+      ],
+      "size": [
+        241,
+        169
+      ],
+      "operation": "Original Sprite export; unchanged pixels",
+      "sha256": "57b8c8f4a2847db803bea74e90706902e2ee279cb6ba104e0eded2b49b968ab3",
+      "nativeBorder": {
+        "left": 120.0,
+        "bottom": 90.0,
+        "right": 120.0,
+        "top": 90.0
+      }
+    },
+    {
+      "file": "assets/hd/ui_card_base_card_frame.png",
+      "source": "H:\\Shadowverse\\Shadowverse\\MuMu模拟器x影之诗高清版_Data\\Persistent\\dat\\2C\\2C4ILUEDTJCTDF4RDCKTKTHG5A [UI/FirstLayer/ui_card_base_card_frame]",
+      "sourceName": "ui_card_base_card_frame",
+      "sourceSize": [
+        600,
+        760
+      ],
+      "size": [
+        600,
+        760
+      ],
+      "operation": "Original Sprite export; unchanged pixels",
+      "sha256": "2a185c00bda7c5b1b7646fb002d15a1e6bd1eca26483ecf85d3b06c23833306e",
+      "nativeBorder": {
+        "left": 0.0,
+        "bottom": 0.0,
+        "right": 0.0,
+        "top": 0.0
+      }
+    },
+    {
+      "file": "assets/hd/utx_base_dialog_header_deco.png",
+      "source": "H:\\Shadowverse\\Shadowverse\\MuMu模拟器x影之诗高清版_Data\\StreamingAssets\\HybridBundles\\Windows\\assets\\_wizard2\\resources\\ui\\common\\utx_base_dialog_header_deco.png",
+      "sourceName": "utx_base_dialog_header_deco",
+      "sourceSize": [
+        286,
+        89
+      ],
+      "size": [
+        286,
+        89
+      ],
+      "operation": "Original Sprite export; unchanged pixels",
+      "sha256": "62724db89e457eadef95466de4c2706746c14dbd217595cfbc3a4e66106fdfaa",
+      "nativeBorder": {
+        "left": 0.0,
+        "bottom": 0.0,
+        "right": 0.0,
+        "top": 0.0
+      }
+    },
+    {
+      "file": "assets/hd/utx_ic_input.png",
+      "source": "H:\\Shadowverse\\Shadowverse\\MuMu模拟器x影之诗高清版_Data\\Persistent\\dat\\25\\25NHZJMRFEUMFZMRN534NEKKOU [Assets/_Wizard2/Resources/Atlas/Common]",
+      "sourceName": "utx_ic_input",
+      "sourceSize": [
+        64,
+        64
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "operation": "Original Sprite export; unchanged pixels",
+      "sha256": "3ae78c5f54968f6260ff1c592f3271ac10b97b039f81b77b6522c54a132adcf9",
+      "nativeBorder": {
+        "left": 0.0,
+        "bottom": 0.0,
+        "right": 0.0,
+        "top": 0.0
+      }
+    },
+    {
+      "file": "assets/hd/utx_ic_deck.png",
+      "source": "H:\\Shadowverse\\Shadowverse\\MuMu模拟器x影之诗高清版_Data\\Persistent\\dat\\25\\25NHZJMRFEUMFZMRN534NEKKOU [Assets/_Wizard2/Resources/Atlas/Common]",
+      "sourceName": "utx_ic_deck",
+      "sourceSize": [
+        64,
+        64
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "operation": "Original Sprite export; unchanged pixels",
+      "sha256": "31299de3458d27820d6ded4dd6fb1164bf7bd88fed3ad47ca00452eacea71be9",
+      "nativeBorder": {
+        "left": 0.0,
+        "bottom": 0.0,
+        "right": 0.0,
+        "top": 0.0
+      }
+    },
+    {
+      "file": "assets/hd/utx_ic_link_card.png",
+      "source": "H:\\Shadowverse\\Shadowverse\\MuMu模拟器x影之诗高清版_Data\\Persistent\\dat\\25\\25NHZJMRFEUMFZMRN534NEKKOU [Assets/_Wizard2/Resources/Atlas/Common]",
+      "sourceName": "utx_ic_link_card",
+      "sourceSize": [
+        64,
+        64
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "operation": "Original Sprite export; unchanged pixels",
+      "sha256": "b2b7e91d723af6c23e9c110e6649c77b0fc0eecd3a365643eabc1c9c5145cfaf",
+      "nativeBorder": {
+        "left": 0.0,
+        "bottom": 0.0,
+        "right": 0.0,
+        "top": 0.0
+      }
+    },
+    {
+      "file": "assets/hd/utx_ic_puzzle.png",
+      "source": "H:\\Shadowverse\\Shadowverse\\MuMu模拟器x影之诗高清版_Data\\Persistent\\dat\\25\\25NHZJMRFEUMFZMRN534NEKKOU [Assets/_Wizard2/Resources/Atlas/Common]",
+      "sourceName": "utx_ic_puzzle",
+      "sourceSize": [
+        78,
+        78
+      ],
+      "size": [
+        78,
+        78
+      ],
+      "operation": "Original Sprite export; unchanged pixels",
+      "sha256": "a87682a06c8a088eae305843da3d45286b42e09d53b502968086fb275a7889d0",
+      "nativeBorder": {
+        "left": 0.0,
+        "bottom": 0.0,
+        "right": 0.0,
+        "top": 0.0
+      }
+    },
+    {
+      "file": "assets/hd/utx_ic_log.png",
+      "source": "H:\\Shadowverse\\Shadowverse\\MuMu模拟器x影之诗高清版_Data\\Persistent\\dat\\25\\25NHZJMRFEUMFZMRN534NEKKOU [Assets/_Wizard2/Resources/Atlas/Common]",
+      "sourceName": "utx_ic_log",
+      "sourceSize": [
+        78,
+        78
+      ],
+      "size": [
+        78,
+        78
+      ],
+      "operation": "Original Sprite export; unchanged pixels",
+      "sha256": "c7a2235d67068ba984012d6abf81de5df326b101960b897272dcd4b928f86840",
+      "nativeBorder": {
+        "left": 0.0,
+        "bottom": 0.0,
+        "right": 0.0,
+        "top": 0.0
+      }
+    },
+    {
+      "file": "assets/hd/utx_ic_information.png",
+      "source": "H:\\Shadowverse\\Shadowverse\\MuMu模拟器x影之诗高清版_Data\\Persistent\\dat\\25\\25NHZJMRFEUMFZMRN534NEKKOU [Assets/_Wizard2/Resources/Atlas/Common]",
+      "sourceName": "utx_ic_information",
+      "sourceSize": [
+        64,
+        64
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "operation": "Original Sprite export; unchanged pixels",
+      "sha256": "6f67afa60dff4ab7f174286bdf243dd2e8e3b6af33b85b1ae08241a0e9733625",
+      "nativeBorder": {
+        "left": 0.0,
+        "bottom": 0.0,
+        "right": 0.0,
+        "top": 0.0
+      }
+    },
+    {
+      "file": "assets/hd/utx_ic_change.png",
+      "source": "H:\\Shadowverse\\Shadowverse\\MuMu模拟器x影之诗高清版_Data\\Persistent\\dat\\25\\25NHZJMRFEUMFZMRN534NEKKOU [Assets/_Wizard2/Resources/Atlas/Common]",
+      "sourceName": "utx_ic_change",
+      "sourceSize": [
+        64,
+        64
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "operation": "Original Sprite export; unchanged pixels",
+      "sha256": "80a7a68459aa17a8984bf8b3dc435ca31e824239fcf796f7848e7fecf0ac683c",
+      "nativeBorder": {
+        "left": 0.0,
+        "bottom": 0.0,
+        "right": 0.0,
+        "top": 0.0
+      }
+    },
+    {
+      "file": "assets/hd/utx_icon_footer_home_normal.png",
+      "source": "H:\\Shadowverse\\Shadowverse\\MuMu模拟器x影之诗高清版_Data\\Persistent\\dat\\25\\25NHZJMRFEUMFZMRN534NEKKOU [Assets/_Wizard2/Resources/Atlas/Common]",
+      "sourceName": "utx_icon_footer_home_normal",
+      "sourceSize": [
+        128,
+        128
+      ],
+      "size": [
+        128,
+        128
+      ],
+      "operation": "Original Sprite export; unchanged pixels",
+      "sha256": "47b744291e3b3099bfe5331f4675b5a043f9d5dedad0cad8b3bfcb86e8ce0222",
+      "nativeBorder": {
+        "left": 0.0,
+        "bottom": 0.0,
+        "right": 0.0,
+        "top": 0.0
+      }
+    },
+    {
+      "file": "assets/hd/utx_icon_footer_solo_normal.png",
+      "source": "H:\\Shadowverse\\Shadowverse\\MuMu模拟器x影之诗高清版_Data\\Persistent\\dat\\25\\25NHZJMRFEUMFZMRN534NEKKOU [Assets/_Wizard2/Resources/Atlas/Common]",
+      "sourceName": "utx_icon_footer_solo_normal",
+      "sourceSize": [
+        128,
+        128
+      ],
+      "size": [
+        128,
+        128
+      ],
+      "operation": "Original Sprite export; unchanged pixels",
+      "sha256": "c1aded2d61018b2148f479d6d48c46b4386a6108129d22385845c380b7627534",
+      "nativeBorder": {
+        "left": 0.0,
+        "bottom": 0.0,
+        "right": 0.0,
+        "top": 0.0
+      }
+    },
+    {
+      "file": "assets/hd/utx_icon_footer_card_normal.png",
+      "source": "H:\\Shadowverse\\Shadowverse\\MuMu模拟器x影之诗高清版_Data\\Persistent\\dat\\25\\25NHZJMRFEUMFZMRN534NEKKOU [Assets/_Wizard2/Resources/Atlas/Common]",
+      "sourceName": "utx_icon_footer_card_normal",
+      "sourceSize": [
+        128,
+        128
+      ],
+      "size": [
+        128,
+        128
+      ],
+      "operation": "Original Sprite export; unchanged pixels",
+      "sha256": "dbf61afe9d3acf1c7655dbe70367254fb7f52a7c36cc93a50f4fa5250b85b655",
+      "nativeBorder": {
+        "left": 0.0,
+        "bottom": 0.0,
+        "right": 0.0,
+        "top": 0.0
+      }
+    },
+    {
+      "file": "assets/hd/utx_icon_footer_shop_normal.png",
+      "source": "H:\\Shadowverse\\Shadowverse\\MuMu模拟器x影之诗高清版_Data\\Persistent\\dat\\25\\25NHZJMRFEUMFZMRN534NEKKOU [Assets/_Wizard2/Resources/Atlas/Common]",
+      "sourceName": "utx_icon_footer_shop_normal",
+      "sourceSize": [
+        128,
+        128
+      ],
+      "size": [
+        128,
+        128
+      ],
+      "operation": "Original Sprite export; unchanged pixels",
+      "sha256": "14f372094eca280360e4442404d2a637872803fa4c7f5e982cc155bf6b73b319",
+      "nativeBorder": {
+        "left": 0.0,
+        "bottom": 0.0,
+        "right": 0.0,
+        "top": 0.0
+      }
+    },
+    {
+      "file": "assets/hd/utx_ic_mtv_message.png",
+      "source": "H:\\Shadowverse\\Shadowverse\\MuMu模拟器x影之诗高清版_Data\\Persistent\\dat\\25\\25NHZJMRFEUMFZMRN534NEKKOU [Assets/_Wizard2/Resources/Atlas/Common]",
+      "sourceName": "utx_ic_mtv_message",
+      "sourceSize": [
+        40,
+        40
+      ],
+      "size": [
+        40,
+        40
+      ],
+      "operation": "Original Sprite export; unchanged pixels",
+      "sha256": "0ce84c81ed8be301e2cfecf2106bb657813fe88ea1376a0b84b595d28b62bade",
+      "nativeBorder": {
+        "left": 0.0,
+        "bottom": 0.0,
+        "right": 0.0,
+        "top": 0.0
+      }
+    },
+    {
+      "file": "assets/hd/utx_icon_class_nemesis.png",
+      "source": "H:\\Shadowverse\\Shadowverse\\MuMu模拟器x影之诗高清版_Data\\Persistent\\dat\\25\\25NHZJMRFEUMFZMRN534NEKKOU [Assets/_Wizard2/Resources/Atlas/Common]",
+      "sourceName": "utx_icon_class_nemesis",
+      "sourceSize": [
+        50,
+        50
+      ],
+      "size": [
+        50,
+        50
+      ],
+      "operation": "Original Sprite export; unchanged pixels",
+      "sha256": "cf6bb94e6201957ec3a57634b3ab0bea2b386d3cf0a594b226b087e0f3a89933",
+      "nativeBorder": {
+        "left": 0.0,
+        "bottom": 0.0,
+        "right": 0.0,
+        "top": 0.0
+      }
+    },
+    {
+      "file": "assets/hd/character-window-mask.png",
+      "source": "H:\\Shadowverse\\Shadowverse\\MuMu模拟器x影之诗高清版_Data\\Persistent\\dat\\2C\\2C4ILUEDTJCTDF4RDCKTKTHG5A [UI/FirstLayer/ui_card_base_card_frame]",
+      "sourceName": "ui_card_base_card_frame",
+      "sourceSize": [
+        600,
+        760
+      ],
+      "size": [
+        512,
+        651
+      ],
+      "operation": "Enclosed native alpha opening; threshold16, 1px edge underlap, cropped to content bounds",
+      "sha256": "2bc19617c9dafc5591977ddc94b853204bfdda1906ddd66a34c06df4bde1c382",
+      "rect": [
+        44,
+        60,
+        556,
+        711
+      ],
+      "alphaThreshold": 16,
+      "underlap": 1,
+      "seed": [
+        300,
+        300
+      ]
+    },
+    {
+      "file": "assets/hd/glyph-home.png",
+      "source": "H:\\Shadowverse\\Shadowverse\\MuMu模拟器x影之诗高清版_Data\\Persistent\\dat\\25\\25NHZJMRFEUMFZMRN534NEKKOU [Assets/_Wizard2/Resources/Atlas/Common]",
+      "sourceName": "utx_icon_footer_home_normal",
+      "sourceSize": [
+        128,
+        128
+      ],
+      "size": [
+        128,
+        128
+      ],
+      "operation": "Native alpha silhouette normalized; neutral RGB for runtime palette",
+      "sha256": "2d6157677e33a9d7a88e6f7240cb592bd1684b61beaf3d032327a20bc5292bc3",
+      "originalAlphaPeak": 141,
+      "alphaScale": 1.8085106382978724
+    },
+    {
+      "file": "assets/hd/glyph-solo.png",
+      "source": "H:\\Shadowverse\\Shadowverse\\MuMu模拟器x影之诗高清版_Data\\Persistent\\dat\\25\\25NHZJMRFEUMFZMRN534NEKKOU [Assets/_Wizard2/Resources/Atlas/Common]",
+      "sourceName": "utx_icon_footer_solo_normal",
+      "sourceSize": [
+        128,
+        128
+      ],
+      "size": [
+        128,
+        128
+      ],
+      "operation": "Native alpha silhouette normalized; neutral RGB for runtime palette",
+      "sha256": "01d77d2362152164cd4a68c7b92873f685e5b70fb1c208b1f4e7f42b427b8cee",
+      "originalAlphaPeak": 97,
+      "alphaScale": 2.6288659793814433
+    },
+    {
+      "file": "assets/hd/glyph-card.png",
+      "source": "H:\\Shadowverse\\Shadowverse\\MuMu模拟器x影之诗高清版_Data\\Persistent\\dat\\25\\25NHZJMRFEUMFZMRN534NEKKOU [Assets/_Wizard2/Resources/Atlas/Common]",
+      "sourceName": "utx_icon_footer_card_normal",
+      "sourceSize": [
+        128,
+        128
+      ],
+      "size": [
+        128,
+        128
+      ],
+      "operation": "Native alpha silhouette normalized; neutral RGB for runtime palette",
+      "sha256": "d246877a1dff2cef1d958cb9cbae92f1fe22fb95b13485b6be44f2be5d4eaae9",
+      "originalAlphaPeak": 97,
+      "alphaScale": 2.6288659793814433
+    },
+    {
+      "file": "assets/hd/glyph-shop.png",
+      "source": "H:\\Shadowverse\\Shadowverse\\MuMu模拟器x影之诗高清版_Data\\Persistent\\dat\\25\\25NHZJMRFEUMFZMRN534NEKKOU [Assets/_Wizard2/Resources/Atlas/Common]",
+      "sourceName": "utx_icon_footer_shop_normal",
+      "sourceSize": [
+        128,
+        128
+      ],
+      "size": [
+        128,
+        128
+      ],
+      "operation": "Native alpha silhouette normalized; neutral RGB for runtime palette",
+      "sha256": "8cf829c6903f5819c4640316449af8aeceaebe1390b45099307dcf8447c99122",
+      "originalAlphaPeak": 97,
+      "alphaScale": 2.6288659793814433
+    },
+    {
+      "file": "assets/hd/panel-frame.png",
+      "source": "H:\\Shadowverse\\Shadowverse\\MuMu模拟器x影之诗高清版_Data\\Persistent\\dat\\GO\\GOW6KAWNUSE3RPZ6A7S2GAVZTE [UI/Shop/utx_base_frame_shop_recommend]",
+      "sourceName": "utx_base_frame_shop_recommend",
+      "sourceSize": [
+        84,
+        716
+      ],
+      "size": [
+        84,
+        84
+      ],
+      "operation": "Lossless native corner/straight-edge assembly; no resizing",
+      "sha256": "c4e59f04358c6ed774dd8829ed990065c6ae7e5dcdb258f157051ccba08df501",
+      "pieces": [
+        [
+          [
+            0,
+            0,
+            41,
+            41
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        [
+          [
+            43,
+            0,
+            84,
+            41
+          ],
+          [
+            43,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            675,
+            41,
+            716
+          ],
+          [
+            0,
+            43
+          ]
+        ],
+        [
+          [
+            43,
+            675,
+            84,
+            716
+          ],
+          [
+            43,
+            43
+          ]
+        ],
+        [
+          [
+            41,
+            0,
+            43,
+            41
+          ],
+          [
+            41,
+            0
+          ]
+        ],
+        [
+          [
+            41,
+            675,
+            43,
+            716
+          ],
+          [
+            41,
+            43
+          ]
+        ],
+        [
+          [
+            0,
+            100,
+            41,
+            102
+          ],
+          [
+            0,
+            41
+          ]
+        ],
+        [
+          [
+            43,
+            100,
+            84,
+            102
+          ],
+          [
+            43,
+            41
+          ]
+        ]
+      ],
+      "slice": [
+        41,
+        41,
+        41,
+        41
+      ]
+    },
+    {
+      "file": "assets/hd/panel-marker-left.png",
+      "source": "H:\\Shadowverse\\Shadowverse\\MuMu模拟器x影之诗高清版_Data\\Persistent\\dat\\GO\\GOW6KAWNUSE3RPZ6A7S2GAVZTE [UI/Shop/utx_base_frame_shop_recommend]",
+      "sourceName": "utx_base_frame_shop_recommend",
+      "sourceSize": [
+        84,
+        716
+      ],
+      "size": [
+        41,
+        56
+      ],
+      "operation": "Lossless fixed-size side ornament crop",
+      "sha256": "6ae9fcd4e79163cb86c40ac2267b99c35a51842dc1c3c6be3abb4ff46284929b",
+      "rect": [
+        0,
+        330,
+        41,
+        386
+      ]
+    },
+    {
+      "file": "assets/hd/panel-marker-right.png",
+      "source": "H:\\Shadowverse\\Shadowverse\\MuMu模拟器x影之诗高清版_Data\\Persistent\\dat\\GO\\GOW6KAWNUSE3RPZ6A7S2GAVZTE [UI/Shop/utx_base_frame_shop_recommend]",
+      "sourceName": "utx_base_frame_shop_recommend",
+      "sourceSize": [
+        84,
+        716
+      ],
+      "size": [
+        41,
+        56
+      ],
+      "operation": "Lossless fixed-size side ornament crop",
+      "sha256": "c8418f92ee636b40bc1e9c346971f74508a34c767135bc91d9870669851a5caf",
+      "rect": [
+        43,
+        330,
+        84,
+        386
+      ]
+    },
+    {
+      "file": "assets/hd/button-left.png",
+      "source": "H:\\Shadowverse\\Shadowverse\\MuMu模拟器x影之诗高清版_Data\\StreamingAssets\\HybridBundles\\Windows\\assets\\_wizard2\\resources\\ui\\common\\utx_btn_common_h220_v60_frame.png",
+      "sourceName": "utx_btn_common_h220_v60_frame",
+      "sourceSize": [
+        224,
+        64
+      ],
+      "size": [
+        32,
+        64
+      ],
+      "operation": "Lossless horizontal control crop",
+      "sha256": "f8733296ae014f2f5abd0d22aa6fe6a36a1ecd2fec94ad2ebf982d4b37ca708e",
+      "rect": [
+        0,
+        0,
+        32,
+        64
+      ]
+    },
+    {
+      "file": "assets/hd/button-middle.png",
+      "source": "H:\\Shadowverse\\Shadowverse\\MuMu模拟器x影之诗高清版_Data\\StreamingAssets\\HybridBundles\\Windows\\assets\\_wizard2\\resources\\ui\\common\\utx_btn_common_h220_v60_frame.png",
+      "sourceName": "utx_btn_common_h220_v60_frame",
+      "sourceSize": [
+        224,
+        64
+      ],
+      "size": [
+        160,
+        64
+      ],
+      "operation": "Lossless horizontal control crop",
+      "sha256": "075edeb60265a9c66adedc270db56c3c0130bb9233aae2d8b9f06d1930481dca",
+      "rect": [
+        32,
+        0,
+        192,
+        64
+      ]
+    },
+    {
+      "file": "assets/hd/button-right.png",
+      "source": "H:\\Shadowverse\\Shadowverse\\MuMu模拟器x影之诗高清版_Data\\StreamingAssets\\HybridBundles\\Windows\\assets\\_wizard2\\resources\\ui\\common\\utx_btn_common_h220_v60_frame.png",
+      "sourceName": "utx_btn_common_h220_v60_frame",
+      "sourceSize": [
+        224,
+        64
+      ],
+      "size": [
+        32,
+        64
+      ],
+      "operation": "Lossless horizontal control crop",
+      "sha256": "bdb700b8053b7b7fe797665ff54ba4e7ca91c2611a4d85069813bf11c6f4a860",
+      "rect": [
+        192,
+        0,
+        224,
+        64
+      ]
+    },
+    {
+      "file": "assets/hd/input-left.png",
+      "source": "H:\\Shadowverse\\Shadowverse\\MuMu模拟器x影之诗高清版_Data\\StreamingAssets\\HybridBundles\\Windows\\assets\\_wizard2\\resources\\ui\\common\\utx_btn_common_h460_v72_frame.png",
+      "sourceName": "utx_btn_common_h460_v72_frame",
+      "sourceSize": [
+        464,
+        76
+      ],
+      "size": [
+        38,
+        76
+      ],
+      "operation": "Lossless horizontal control crop",
+      "sha256": "e0c99d6d3862f14fcb23ddc19f75aa206bfb29d8c420567f305b1f7a04ed7dcb",
+      "rect": [
+        0,
+        0,
+        38,
+        76
+      ]
+    },
+    {
+      "file": "assets/hd/input-middle.png",
+      "source": "H:\\Shadowverse\\Shadowverse\\MuMu模拟器x影之诗高清版_Data\\StreamingAssets\\HybridBundles\\Windows\\assets\\_wizard2\\resources\\ui\\common\\utx_btn_common_h460_v72_frame.png",
+      "sourceName": "utx_btn_common_h460_v72_frame",
+      "sourceSize": [
+        464,
+        76
+      ],
+      "size": [
+        388,
+        76
+      ],
+      "operation": "Lossless horizontal control crop",
+      "sha256": "fdc196e41a5a21dca547ac34cf26cd2c81b1ff0bd0ac2dfe6f1f80614c1d526e",
+      "rect": [
+        38,
+        0,
+        426,
+        76
+      ]
+    },
+    {
+      "file": "assets/hd/input-right.png",
+      "source": "H:\\Shadowverse\\Shadowverse\\MuMu模拟器x影之诗高清版_Data\\StreamingAssets\\HybridBundles\\Windows\\assets\\_wizard2\\resources\\ui\\common\\utx_btn_common_h460_v72_frame.png",
+      "sourceName": "utx_btn_common_h460_v72_frame",
+      "sourceSize": [
+        464,
+        76
+      ],
+      "size": [
+        38,
+        76
+      ],
+      "operation": "Lossless horizontal control crop",
+      "sha256": "c2c29a2a4ab5912220a332e395d9ef2793370d921e845905b6d0d605fdec4f8e",
+      "rect": [
+        426,
+        0,
+        464,
+        76
+      ]
+    }
+  ]
+}

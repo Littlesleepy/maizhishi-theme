@@ -1,0 +1,30 @@
+[
+  {
+    "font": "JetBrainsMono-Medium.ttf",
+    "license_file": "docs/licenses/JetBrainsMono-OFL.txt",
+    "url": "https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/OFL.txt",
+    "sha256": "a76abf002c49097d146e86740a3105a5d00450b1592e820a1109a8c5680cd697",
+    "retrieved": "2026-11-10"
+  },
+  {
+    "font": "Jersey20-Regular.ttf",
+    "license_file": "docs/licenses/Jersey20-OFL.txt",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/jersey20/OFL.txt",
+    "sha256": "436d5836064cec796c7ddde6fb4faeabdb6f2f17443a24a30d0c38b75d13f922",
+    "retrieved": "2026-11-10"
+  },
+  {
+    "font": "DepartureMono-Regular.woff2",
+    "license_file": "docs/licenses/DepartureMono-OFL.txt",
+    "url": "https://raw.githubusercontent.com/rektdeckard/departure-mono/main/public/assets/LICENSE",
+    "sha256": "b65e42750f3cb65437a97f4dfd781c58f199259949db2341012be60e32500e83",
+    "retrieved": "2026-11-10"
+  },
+  {
+    "font": "ArkPixel12-ZhHans.woff2",
+    "license_file": "docs/licenses/ArkPixel-OFL.txt",
+    "url": "https://raw.githubusercontent.com/TakWolf/ark-pixel-font/master/LICENSE-OFL",
+    "sha256": "3ab41567e68e3988ba1ef16dd2644eca95ca5648ea12e7d46e6287fc0bbe5aee",
+    "retrieved": "2026-11-10"
+  }
+]

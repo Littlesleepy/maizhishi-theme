@@ -1,0 +1,701 @@
+{
+  "nativeGame": "Shadowverse: Worlds Beyond",
+  "installation": "MuMu / com.netease.yzs",
+  "access": "Read-only installed art bundles and local resource catalog; no account data or game settings changed",
+  "exporter": "UnityPy Sprite.image and Texture2D.image",
+  "nativeSpriteCount": 38,
+  "nativeSprites": [
+    {
+      "name": "bg_common",
+      "atlas": "NativeUI",
+      "source": "UI/BG/bg_common",
+      "hash": "CGUH2XMSS73UGZAN6OYUQJM26M",
+      "size": [
+        2048,
+        2048
+      ],
+      "sha256": "330277456a2244dad484d5928084e51b71b90fca0bb0c25053b6012cc7a614bb",
+      "border": {
+        "left": 0.0,
+        "bottom": 0.0,
+        "right": 0.0,
+        "top": 0.0
+      },
+      "file": "assets/wb/bg-common-scene.png",
+      "derivedFrom": "bg_common",
+      "crop": [
+        0,
+        398,
+        2048,
+        1652
+      ],
+      "transformation": "Lossless removal of unused black texture padding; no artwork redrawn"
+    },
+    {
+      "name": "bg_home_img_01",
+      "atlas": "NativeUI",
+      "source": "UI/BG/bg_home_img_01",
+      "hash": "MKRUHO7TB2XJOFRG3ZNT2OLYZY",
+      "size": [
+        2048,
+        2048
+      ],
+      "sha256": "8b348b7d1102efe393665f21c8938a9523b33aac793aff687869b55e84d497c4",
+      "border": {
+        "left": 0.0,
+        "bottom": 0.0,
+        "right": 0.0,
+        "top": 0.0
+      },
+      "file": "assets/wb/bg-home-scene.png",
+      "derivedFrom": "bg_home_img_01",
+      "crop": [
+        0,
+        396,
+        2048,
+        1653
+      ],
+      "transformation": "Lossless removal of unused black texture padding; no artwork redrawn"
+    },
+    {
+      "name": "bg_classcommon_nemesis",
+      "atlas": "NativeUI",
+      "source": "UI/BG/bg_classcommon_nemesis",
+      "hash": "GDP4GH2MD7DCFXLAMUGUCZWZ34",
+      "size": [
+        2048,
+        2048
+      ],
+      "sha256": "6ba47dc6b5244c46623c96d14066e0ac2337820849d371d99a5a6204893078ff",
+      "border": {
+        "left": 0.0,
+        "bottom": 0.0,
+        "right": 0.0,
+        "top": 0.0
+      },
+      "file": "assets/wb/bg-nemesis-scene.png",
+      "derivedFrom": "bg_classcommon_nemesis",
+      "crop": [
+        0,
+        398,
+        2048,
+        1652
+      ],
+      "transformation": "Lossless removal of unused black texture padding; no artwork redrawn"
+    },
+    {
+      "name": "ic_card_collection",
+      "atlas": "NativeUI",
+      "source": "UI/FirstLayer/ic_card_collection",
+      "hash": "BPU2H4C7CPVN5CNO6PB2YDCVKU",
+      "size": [
+        64,
+        51
+      ],
+      "sha256": "942b89ec9068fb37859ec99d2c0bf46f73906ba9cd79b984ec0c84697cbc5557",
+      "border": {
+        "left": 0.0,
+        "bottom": 0.0,
+        "right": 0.0,
+        "top": 0.0
+      },
+      "file": "assets/wb/ic_card_collection.png"
+    },
+    {
+      "name": "ui_card_base_deck_frame",
+      "atlas": "NativeUI",
+      "source": "UI/FirstLayer/ui_card_base_deck_frame",
+      "hash": "4BECXHWX56RI2KAZADCM765MJI",
+      "size": [
+        600,
+        760
+      ],
+      "sha256": "9d61b8f07767b7d2589a4b91c046a5771177b61fc8c287f8289a2e9e4701b02f",
+      "border": {
+        "left": 0.0,
+        "bottom": 0.0,
+        "right": 0.0,
+        "top": 0.0
+      },
+      "file": "assets/wb/ui_card_base_deck_frame.png"
+    },
+    {
+      "name": "ui_practice_base_frame",
+      "atlas": "NativeUI",
+      "source": "UI/FirstLayer/ui_practice_base_frame",
+      "hash": "CEKQGKADLDJ6SDU5SMGTCLABDM",
+      "size": [
+        385,
+        535
+      ],
+      "sha256": "907bbff73cd349e0db2b2f7b056700549e473ed6c4a1038143f3794b3d481ecb",
+      "border": {
+        "left": 0.0,
+        "bottom": 0.0,
+        "right": 0.0,
+        "top": 0.0
+      },
+      "file": "assets/wb/ui_practice_base_frame.png"
+    },
+    {
+      "name": "utx_base_common_frame2",
+      "atlas": "Common",
+      "size": [
+        130,
+        64
+      ],
+      "border": {
+        "left": 65.0,
+        "bottom": 32.0,
+        "right": 65.0,
+        "top": 32.0
+      },
+      "file": "assets/wb/utx_base_common_frame2.png",
+      "source": "Assets/_Wizard2/Resources/Atlas/Common",
+      "sha256": "b909066ba2fd544456a3d1eef52a233eb9fc4d549daba394d5a5417f2a00d333"
+    },
+    {
+      "name": "utx_base_deck_set_frame",
+      "atlas": "Common",
+      "size": [
+        524,
+        136
+      ],
+      "border": {
+        "left": 0.0,
+        "bottom": 0.0,
+        "right": 0.0,
+        "top": 0.0
+      },
+      "file": "assets/wb/utx_base_deck_set_frame.png",
+      "source": "Assets/_Wizard2/Resources/Atlas/Common",
+      "sha256": "997c3a4c1766502d5456aae8545cca50a711527fa5bca9b5a78272ba739f8d73"
+    },
+    {
+      "name": "utx_base_footer_00",
+      "atlas": "NativeUI",
+      "source": "UI/Home/utx_base_footer_00",
+      "hash": "KPNDSECCXMZZ53GRDZCQQH7TIE",
+      "size": [
+        2048,
+        134
+      ],
+      "sha256": "e09e81c0c0b2380c9001fa4ca1e60251d1ed4f40a0fe7b6aacfd87ad117dca23",
+      "border": {
+        "left": 1020.4750366210938,
+        "bottom": 0.0,
+        "right": 1020.4750366210938,
+        "top": 0.0
+      },
+      "file": "assets/wb/utx_base_footer_00.png"
+    },
+    {
+      "name": "utx_base_footer_01",
+      "atlas": "NativeUI",
+      "source": "UI/Home/utx_base_footer_01",
+      "hash": "DUBLZEJYZLSCZC4UFBQ7OJW7OQ",
+      "size": [
+        8,
+        536
+      ],
+      "sha256": "b0ce66e3c60b6793789f27aae25c377b6e06a2fd7f81239ceb39e859a0e4715f",
+      "border": {
+        "left": 0.0,
+        "bottom": 1.0,
+        "right": 0.0,
+        "top": 531.0
+      },
+      "file": "assets/wb/utx_base_footer_01.png"
+    },
+    {
+      "name": "utx_base_home_text01",
+      "atlas": "NativeUI",
+      "source": "UI/Home/utx_base_home_text01",
+      "hash": "7NFFZLXSPE5K3VOHX5QYQUNRKM",
+      "size": [
+        784,
+        232
+      ],
+      "sha256": "ab5f7b8506eade6463736e2d57554d757f98af912ae4faae3b1c7bf2011d5fd4",
+      "border": {
+        "left": 0.0,
+        "bottom": 0.0,
+        "right": 0.0,
+        "top": 0.0
+      },
+      "file": "assets/wb/utx_base_home_text01.png"
+    },
+    {
+      "name": "utx_base_text_box",
+      "atlas": "Common",
+      "size": [
+        12,
+        12
+      ],
+      "border": {
+        "left": 5.0,
+        "bottom": 5.0,
+        "right": 5.0,
+        "top": 5.0
+      },
+      "file": "assets/wb/utx_base_text_box.png",
+      "source": "Assets/_Wizard2/Resources/Atlas/Common",
+      "sha256": "51cf853adbe999a316d01259db4831d701a1ecbc839cfe5cb29976428cbc0985"
+    },
+    {
+      "name": "utx_btn_common_00_m",
+      "atlas": "Button",
+      "size": [
+        316,
+        72
+      ],
+      "border": {
+        "left": 0.0,
+        "bottom": 0.0,
+        "right": 0.0,
+        "top": 0.0
+      },
+      "file": "assets/wb/utx_btn_common_00_m.png",
+      "source": "Assets/_Wizard2/Resources/Atlas/Button",
+      "sha256": "ac78e79d80d429d4c8b08dbdb37065acc41ba51028ee3ddbd013d419a571443a"
+    },
+    {
+      "name": "utx_btn_common_00_m_lightblue",
+      "atlas": "Button",
+      "size": [
+        316,
+        72
+      ],
+      "border": {
+        "left": 0.0,
+        "bottom": 0.0,
+        "right": 0.0,
+        "top": 0.0
+      },
+      "file": "assets/wb/utx_btn_common_00_m_lightblue.png",
+      "source": "Assets/_Wizard2/Resources/Atlas/Button",
+      "sha256": "8a92f1f92b8745fdacbd1223ab60ce6f501bc807c6569dbd513283569fcaceba"
+    },
+    {
+      "name": "utx_btn_common_00_ss",
+      "atlas": "Button",
+      "size": [
+        148,
+        72
+      ],
+      "border": {
+        "left": 0.0,
+        "bottom": 0.0,
+        "right": 0.0,
+        "top": 0.0
+      },
+      "file": "assets/wb/utx_btn_common_00_ss.png",
+      "source": "Assets/_Wizard2/Resources/Atlas/Button",
+      "sha256": "403fadb870199267a1fdd0c2bb131103b7fe424cc072c56d7d29e07f0d5c6d53"
+    },
+    {
+      "name": "utx_btn_common_01_m",
+      "atlas": "Button",
+      "size": [
+        316,
+        112
+      ],
+      "border": {
+        "left": 0.0,
+        "bottom": 0.0,
+        "right": 0.0,
+        "top": 0.0
+      },
+      "file": "assets/wb/utx_btn_common_01_m.png",
+      "source": "Assets/_Wizard2/Resources/Atlas/Button",
+      "sha256": "361896e3f166034b9cf43f7185c612e168b084d5e7c00bd87756bdbd08df87da"
+    },
+    {
+      "name": "utx_btn_common_tab_01_left_off",
+      "atlas": "Button",
+      "size": [
+        140,
+        70
+      ],
+      "border": {
+        "left": 0.0,
+        "bottom": 0.0,
+        "right": 0.0,
+        "top": 0.0
+      },
+      "file": "assets/wb/utx_btn_common_tab_01_left_off.png",
+      "source": "Assets/_Wizard2/Resources/Atlas/Button",
+      "sha256": "b5e95d8a08aa09ee4e84349bf60b374143b61ae98659757f233a9bcfd9152b15"
+    },
+    {
+      "name": "utx_btn_common_tab_01_left_on",
+      "atlas": "Button",
+      "size": [
+        140,
+        70
+      ],
+      "border": {
+        "left": 0.0,
+        "bottom": 0.0,
+        "right": 0.0,
+        "top": 0.0
+      },
+      "file": "assets/wb/utx_btn_common_tab_01_left_on.png",
+      "source": "Assets/_Wizard2/Resources/Atlas/Button",
+      "sha256": "3cc2296590fbed9bf153f3ceeb7bfd3ef252a4da08893a23b73131367c7fc9a8"
+    },
+    {
+      "name": "utx_btn_common_tab_01_right_off",
+      "atlas": "Button",
+      "size": [
+        140,
+        70
+      ],
+      "border": {
+        "left": 0.0,
+        "bottom": 0.0,
+        "right": 0.0,
+        "top": 0.0
+      },
+      "file": "assets/wb/utx_btn_common_tab_01_right_off.png",
+      "source": "Assets/_Wizard2/Resources/Atlas/Button",
+      "sha256": "4af97d75264c9d38b1837d185b4fb0b55e01194f8b41b59da232b9d3df3446a6"
+    },
+    {
+      "name": "utx_btn_common_tab_01_right_on",
+      "atlas": "Button",
+      "size": [
+        140,
+        70
+      ],
+      "border": {
+        "left": 0.0,
+        "bottom": 0.0,
+        "right": 0.0,
+        "top": 0.0
+      },
+      "file": "assets/wb/utx_btn_common_tab_01_right_on.png",
+      "source": "Assets/_Wizard2/Resources/Atlas/Button",
+      "sha256": "7c76ee9443f9b9cccc388ae07635082c5636e8226b5d30d1b1f2f6ab7fdcf67e"
+    },
+    {
+      "name": "utx_cmn_horizontal_tab_line",
+      "atlas": "Common",
+      "size": [
+        113,
+        1
+      ],
+      "border": {
+        "left": 0.0,
+        "bottom": 0.0,
+        "right": 0.0,
+        "top": 0.0
+      },
+      "file": "assets/wb/utx_cmn_horizontal_tab_line.png",
+      "source": "Assets/_Wizard2/Resources/Atlas/Common",
+      "sha256": "61827a107f3856b7cd7845a8af951af6cd7a9e96b98cbe874e96afc630ac1b45"
+    },
+    {
+      "name": "utx_cmn_subtitle_icon01",
+      "atlas": "Common",
+      "size": [
+        48,
+        48
+      ],
+      "border": {
+        "left": 0.0,
+        "bottom": 0.0,
+        "right": 0.0,
+        "top": 0.0
+      },
+      "file": "assets/wb/utx_cmn_subtitle_icon01.png",
+      "source": "Assets/_Wizard2/Resources/Atlas/Common",
+      "sha256": "6140e80074e9850cea3700e8b2a539369289392ea4e9b167ce9a6ae8ca971a8a"
+    },
+    {
+      "name": "utx_ic_change",
+      "atlas": "Common",
+      "size": [
+        64,
+        64
+      ],
+      "border": {
+        "left": 0.0,
+        "bottom": 0.0,
+        "right": 0.0,
+        "top": 0.0
+      },
+      "file": "assets/wb/utx_ic_change.png",
+      "source": "Assets/_Wizard2/Resources/Atlas/Common",
+      "sha256": "addac5f3a8e5c927eec65ac5a5c3bae76016f066e5427ef560d5c1bc3cfc6c51"
+    },
+    {
+      "name": "utx_ic_cost_graph",
+      "atlas": "Common",
+      "size": [
+        42,
+        42
+      ],
+      "border": {
+        "left": 0.0,
+        "bottom": 0.0,
+        "right": 0.0,
+        "top": 0.0
+      },
+      "file": "assets/wb/utx_ic_cost_graph.png",
+      "source": "Assets/_Wizard2/Resources/Atlas/Common",
+      "sha256": "0acaf14380ce005bd5b6ecc665c408967846af3f1ab5392dce6461052504a4f0"
+    },
+    {
+      "name": "utx_ic_log",
+      "atlas": "Common",
+      "size": [
+        78,
+        78
+      ],
+      "border": {
+        "left": 0.0,
+        "bottom": 0.0,
+        "right": 0.0,
+        "top": 0.0
+      },
+      "file": "assets/wb/utx_ic_log.png",
+      "source": "Assets/_Wizard2/Resources/Atlas/Common",
+      "sha256": "748047a93307e99a838055398580f2c3b3378e28412141f3c2af36201e464319"
+    },
+    {
+      "name": "utx_ic_menu",
+      "atlas": "Common",
+      "size": [
+        78,
+        78
+      ],
+      "border": {
+        "left": 0.0,
+        "bottom": 0.0,
+        "right": 0.0,
+        "top": 0.0
+      },
+      "file": "assets/wb/utx_ic_menu.png",
+      "source": "Assets/_Wizard2/Resources/Atlas/Common",
+      "sha256": "291d04305d5760c592d565e756ec4a683954a1c9bce781f17eff1de423a6e80d"
+    },
+    {
+      "name": "utx_ic_mtv_message",
+      "atlas": "Common",
+      "size": [
+        40,
+        40
+      ],
+      "border": {
+        "left": 0.0,
+        "bottom": 0.0,
+        "right": 0.0,
+        "top": 0.0
+      },
+      "file": "assets/wb/utx_ic_mtv_message.png",
+      "source": "Assets/_Wizard2/Resources/Atlas/Common",
+      "sha256": "3d68799e971256a71ecc93137bc9f75047a162126bd83ef594edf971cca94eda"
+    },
+    {
+      "name": "utx_ic_room_id_copy",
+      "atlas": "Common",
+      "size": [
+        64,
+        64
+      ],
+      "border": {
+        "left": 0.0,
+        "bottom": 0.0,
+        "right": 0.0,
+        "top": 0.0
+      },
+      "file": "assets/wb/utx_ic_room_id_copy.png",
+      "source": "Assets/_Wizard2/Resources/Atlas/Common",
+      "sha256": "9e4cd8b3358fb196063d87b31437a1b198d589abef3082a9ebb223a55c20a59b"
+    },
+    {
+      "name": "utx_ic_search",
+      "atlas": "Common",
+      "size": [
+        64,
+        64
+      ],
+      "border": {
+        "left": 0.0,
+        "bottom": 0.0,
+        "right": 0.0,
+        "top": 0.0
+      },
+      "file": "assets/wb/utx_ic_search.png",
+      "source": "Assets/_Wizard2/Resources/Atlas/Common",
+      "sha256": "45aa00f8ad28c58bc8c619c1429e044fa79c21797fd7a539822e014f63ae9b26"
+    },
+    {
+      "name": "utx_ic_tab_arrow_off",
+      "atlas": "Common",
+      "size": [
+        48,
+        48
+      ],
+      "border": {
+        "left": 0.0,
+        "bottom": 0.0,
+        "right": 0.0,
+        "top": 0.0
+      },
+      "file": "assets/wb/utx_ic_tab_arrow_off.png",
+      "source": "Assets/_Wizard2/Resources/Atlas/Common",
+      "sha256": "83f3a66338dc6ea1345ae6d22a9d6ae3ebfef497bc5b147765aa33130f310d99"
+    },
+    {
+      "name": "utx_icon_class_nemesis",
+      "atlas": "Common",
+      "size": [
+        50,
+        50
+      ],
+      "border": {
+        "left": 0.0,
+        "bottom": 0.0,
+        "right": 0.0,
+        "top": 0.0
+      },
+      "file": "assets/wb/utx_icon_class_nemesis.png",
+      "source": "Assets/_Wizard2/Resources/Atlas/Common",
+      "sha256": "d5331803a5cb554608e80df2d8d235944af5f570878b00b6df770284a182c9db"
+    },
+    {
+      "name": "utx_icon_footer_home_active",
+      "atlas": "Common",
+      "size": [
+        128,
+        128
+      ],
+      "border": {
+        "left": 0.0,
+        "bottom": 0.0,
+        "right": 0.0,
+        "top": 0.0
+      },
+      "file": "assets/wb/utx_icon_footer_home_active.png",
+      "source": "Assets/_Wizard2/Resources/Atlas/Common",
+      "sha256": "ca400a5cd2e79733c35aebbc8c6abd6add6ae0cd3b38425adbc1533179482a95"
+    },
+    {
+      "name": "utx_icon_footer_metaverse_active",
+      "atlas": "Common",
+      "size": [
+        128,
+        128
+      ],
+      "border": {
+        "left": 0.0,
+        "bottom": 0.0,
+        "right": 0.0,
+        "top": 0.0
+      },
+      "file": "assets/wb/utx_icon_footer_metaverse_active.png",
+      "source": "Assets/_Wizard2/Resources/Atlas/Common",
+      "sha256": "56af8aa8fd013c04c42a2b40270e494ec548e23b12f9284c0292c105e7c8d4e7"
+    },
+    {
+      "name": "utx_icon_footer_shop_active",
+      "atlas": "Common",
+      "size": [
+        128,
+        128
+      ],
+      "border": {
+        "left": 0.0,
+        "bottom": 0.0,
+        "right": 0.0,
+        "top": 0.0
+      },
+      "file": "assets/wb/utx_icon_footer_shop_active.png",
+      "source": "Assets/_Wizard2/Resources/Atlas/Common",
+      "sha256": "d30ea38df98b984730ac9f01146d95688fbeb8af4dbfd9d06af5569c219c913a"
+    },
+    {
+      "name": "utx_icon_footer_solo_active",
+      "atlas": "Common",
+      "size": [
+        128,
+        128
+      ],
+      "border": {
+        "left": 0.0,
+        "bottom": 0.0,
+        "right": 0.0,
+        "top": 0.0
+      },
+      "file": "assets/wb/utx_icon_footer_solo_active.png",
+      "source": "Assets/_Wizard2/Resources/Atlas/Common",
+      "sha256": "e35127538e1845a9ddb26117b8888da2cc8ae47fbcb18e52752ff42042e8ddb7"
+    },
+    {
+      "name": "utx_line_common_01",
+      "atlas": "Common",
+      "size": [
+        200,
+        8
+      ],
+      "border": {
+        "left": 30.0,
+        "bottom": 0.0,
+        "right": 30.0,
+        "top": 0.0
+      },
+      "file": "assets/wb/utx_line_common_01.png",
+      "source": "Assets/_Wizard2/Resources/Atlas/Common",
+      "sha256": "77a858af7dc512a3e58ce014e4836d8794f020695f70332ebe79196a3da433ac"
+    },
+    {
+      "name": "utx_line_common_05",
+      "atlas": "Common",
+      "size": [
+        65,
+        7
+      ],
+      "border": {
+        "left": 32.0,
+        "bottom": 0.0,
+        "right": 32.0,
+        "top": 0.0
+      },
+      "file": "assets/wb/utx_line_common_05.png",
+      "source": "Assets/_Wizard2/Resources/Atlas/Common",
+      "sha256": "bcdbb304e8e0e97598c35d936816e15b1e3e5b854a69ea5cfe5cf8735f831c6e"
+    },
+    {
+      "name": "utx_line_common_10",
+      "atlas": "Common",
+      "size": [
+        136,
+        20
+      ],
+      "border": {
+        "left": 31.0,
+        "bottom": 0.0,
+        "right": 69.0,
+        "top": 0.0
+      },
+      "file": "assets/wb/utx_line_common_10.png",
+      "source": "Assets/_Wizard2/Resources/Atlas/Common",
+      "sha256": "0092a9c7a797cca7e404940d179aece12af28fd83c0930309d9f937e39749f37"
+    }
+  ],
+  "originalArt": [
+    {
+      "file": "assets/orchis-day.jpg",
+      "sha256": "3c6428cab5f57e3293da6a2fae16a4c4641ad0dab8b669f007551a82ecb0ef73",
+      "transformation": "None; user supplied original art copied byte-for-byte"
+    },
+    {
+      "file": "assets/orchis-night.jpg",
+      "sha256": "43733eaaa7ba1353cbbfe43744b17d000b5b5a709c1a2bd778655def45876ba7",
+      "transformation": "None; user supplied original art copied byte-for-byte"
+    }
+  ],
+  "attribution": "Game artwork © Cygames, Inc. User-requested local visual prototype."
+}
