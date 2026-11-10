@@ -4,7 +4,7 @@
 
 安装后在 **WEBUI设置 → 外观 → 界面风格** 中选择第四主题 **麦之诗**。保留原三种主题及主页功能，提供深浅配色、立绘进化切换、原版演出与音效、主题导航和顶栏小人交互。主题偏好保存在当前浏览器，原三主题继续使用原后端设置。
 
-当前为 **0.1.3 发布候选**。作者为 [littlesleepy](https://github.com/Littlesleepy)，正式插件 ID 为 `github.littlesleepy.maizhishi-theme`。已创建[公开仓库](https://github.com/Littlesleepy/maizhishi-theme)；尚未发布 Release 或提交插件市场。
+当前版本 **0.1.3**，处于预发布阶段。作者为 [littlesleepy](https://github.com/Littlesleepy)，正式插件 ID 为 `github.littlesleepy.maizhishi-theme`。发行包见 [GitHub Releases](https://github.com/Littlesleepy/maizhishi-theme/releases)；尚未提交插件市场。
 
 曾安装 `local.maizhishi-theme` 测试版本的实例，需要先禁用并完整还原、卸载旧版本，再安装正式 ID 的候选包。新旧插件不能同时启用，不能迁移旧备份冒充新安装。
 
@@ -48,4 +48,4 @@ python -m tools.build_package --output release/maizhishi-theme-0.1.3-candidate.z
 
 插件代码及 Dashboard 派生前端使用 AGPL-3.0-only，许可证见 [LICENSE](LICENSE)。宿主本身的 GPLv3 声明单独保留。游戏原画、UI、音效和用户上传小人的权利列于 [第三方声明](THIRD_PARTY_NOTICES.md) 与 [资源来源](docs/ASSET_SOURCES.md)，不随代码许可证获得新授权。
 
-正式公开发布还需完成第三方资源分发许可、依赖许可版本核对及市场审核事项。具体清单见 [发布准备](docs/RELEASING.md)。
+游戏素材的公开再分发许可尚未确立，两项旧版依赖的完整许可原文对应关系仍待核对。预发布不表示这些事项已经解决，也不表示通过市场审核。具体记录见 [发布准备](docs/RELEASING.md) 与 [0.1.3 发布说明](docs/RELEASE_0.1.3.md)。
