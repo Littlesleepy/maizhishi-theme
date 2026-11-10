@@ -5,7 +5,7 @@
 完整项目包含 `payload/` 和 `frontend-source/`。Python 3.12 在插件项目根目录执行：
 
 ```sh
-python -m tools.build_package --output release/maizhishi-theme-0.1.1-candidate.zip
+python -m tools.build_package --output release/maizhishi-theme-0.1.2-candidate.zip
 ```
 
 打包器仅使用标准库。默认收集项目内源码、已通过 SHA256 校验的载荷、插件代码、测试、许可证与文档；不收集虚拟环境、node_modules、构建输出、实例配置或备份。对应源码逐文件由 `frontend-source/source-manifest.json` 核验完整性。缺文件、来源清单不符或载荷损坏时停止，成功后才原子替换输出。相同输入产生逐字节相同的 ZIP。`--frontend-source <目录>` 仅供维护者明确覆盖包含来源清单的对应源码，普通打包不需要此参数。

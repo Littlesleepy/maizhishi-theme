@@ -4,7 +4,7 @@
 
 安装后在 **WEBUI设置 → 外观 → 界面风格** 中选择第四主题 **麦之诗**。保留原三种主题及主页功能，提供深浅配色、立绘进化切换、原版演出与音效、主题导航和顶栏小人交互。主题偏好保存在当前浏览器，原三主题继续使用原后端设置。
 
-当前为 **0.1.1 发布候选**。作者为 [littlesleepy](https://github.com/Littlesleepy)，正式插件 ID 为 `github.littlesleepy.maizhishi-theme`。已创建[公开仓库](https://github.com/Littlesleepy/maizhishi-theme)；尚未发布 Release 或提交插件市场。
+当前为 **0.1.2 发布候选**。作者为 [littlesleepy](https://github.com/Littlesleepy)，正式插件 ID 为 `github.littlesleepy.maizhishi-theme`。已创建[公开仓库](https://github.com/Littlesleepy/maizhishi-theme)；尚未发布 Release 或提交插件市场。
 
 曾安装 `local.maizhishi-theme` 测试版本的实例，需要先禁用并完整还原、卸载旧版本，再安装正式 ID 的候选包。新旧插件不能同时启用，不能迁移旧备份冒充新安装。
 
@@ -33,7 +33,7 @@
 在项目根目录，Python 3.12 环境执行：
 
 ```sh
-python -m tools.build_package --output release/maizhishi-theme-0.1.1-candidate.zip
+python -m tools.build_package --output release/maizhishi-theme-0.1.2-candidate.zip
 ```
 
 安装预构建包无需 Node.js，也不需要访问本地验收目录。重建前端和验证步骤见 [构建说明](docs/BUILDING.md)。

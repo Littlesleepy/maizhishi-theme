@@ -66,6 +66,14 @@
     stroke-width: 1.6;
     flex-shrink: 0;
   }
+  .chat-form .send-button {
+    display: grid;
+    place-items: center;
+  }
+  .chat-form .send-button > svg.lucide {
+    width: 17px;
+    height: 17px;
+  }
   position: relative;
   isolation: isolate;
   width: 100%;
