@@ -1,6 +1,6 @@
 # 公开发布准备
 
-当前版本：0.1.3，按预发布流程发行。完整项目已上传到公开 GitHub 仓库，包含预构建前端与对应源码。发行状态以 [GitHub Releases](https://github.com/Littlesleepy/maizhishi-theme/releases) 为准；尚未申请插件市场收录。
+当前版本：0.1.4，按预发布流程发行。完整项目已上传到公开 GitHub 仓库，包含预构建前端与对应源码。发行状态以 [GitHub Releases](https://github.com/Littlesleepy/maizhishi-theme/releases) 为准；尚未申请插件市场收录。
 
 ## 发布前需要补齐
 
@@ -29,4 +29,4 @@
 
 截至 2026-11-10 核对的[官方贡献指南](https://github.com/Mai-with-u/plugin-repo/blob/main/CONTRIBUTING.md)要求公开 GitHub 仓库及至少一个已发布 Release，支持预发布但不接受仅有草稿或 Tag；随后通过仓库的添加插件 Issue 流程提交。未来提交时应重新核对最新规则。
 
-0.1.3 的发行说明见 [RELEASE_0.1.3.md](RELEASE_0.1.3.md)。市场申请为独立步骤；公开上传的用户授权不被记录为第三方权利人授予的素材许可。
+0.1.4 的发行说明见 [RELEASE_0.1.4.md](RELEASE_0.1.4.md)。市场申请为独立步骤；公开上传的用户授权不被记录为第三方权利人授予的素材许可。

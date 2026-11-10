@@ -33,7 +33,7 @@ def write_build_inputs(source):
 def make_project(root):
     """A real small project copy, with no environment or external source dependency."""
     repo = Path(__file__).resolve().parents[1]
-    for name in ('.gitignore', '_manifest.json', 'plugin.py', 'requirements.txt', 'LICENSE', 'README.md', 'THIRD_PARTY_NOTICES.md'):
+    for name in ('.gitignore', '_manifest.json', 'icon.png', 'plugin.py', 'requirements.txt', 'LICENSE', 'README.md', 'THIRD_PARTY_NOTICES.md'):
         shutil.copyfile(repo / name, root / name)
     (root / 'tools').mkdir()
     shutil.copyfile(repo / 'tools/build_package.py', root / 'tools/build_package.py')

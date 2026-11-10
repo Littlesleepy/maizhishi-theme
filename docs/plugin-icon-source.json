@@ -1,0 +1,22 @@
+{
+  "usage": "Plugin manifest display.icon, installed plugin list and market listing",
+  "source": {
+    "kind": "user-provided image, explicitly selected as plugin icon",
+    "filename": "15169e9a-0557-4461-8929-d22da502fba3.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 1806165,
+    "sha256": "5ea03aaf748ebe38d8fa1b7e78a2a1e14b06eb5c94cf8ef553812738bf2790da"
+  },
+  "output": {
+    "path": "icon.png",
+    "width": 256,
+    "height": 256,
+    "bytes": 88413,
+    "sha256": "09cf28419fe90c389bbfa50900768f9d120fd4f0ff5a6cb38e1fd83c6edd94da",
+    "processing": "Proportional resize only, System.Drawing HighQualityBicubic, PNG encoding",
+    "background": "Original background retained; top-left corner alpha is 255 in source and output",
+    "host_max_icon_bytes": 524288
+  },
+  "rights_note": "User selected the image for this use; no additional third-party rights are inferred."
+}

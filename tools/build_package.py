@@ -7,7 +7,7 @@ import os
 import tempfile
 
 REPO = Path(__file__).resolve().parents[1]
-ROOT_FILES = ('.gitignore', '_manifest.json', 'plugin.py', 'requirements.txt', 'LICENSE', 'README.md', 'THIRD_PARTY_NOTICES.md')
+ROOT_FILES = ('.gitignore', '_manifest.json', 'icon.png', 'plugin.py', 'requirements.txt', 'LICENSE', 'README.md', 'THIRD_PARTY_NOTICES.md')
 EXCLUDED = {'.git', 'node_modules', 'dist', '.vite', '__pycache__', '.venv', 'config.toml', 'patch-state.json'}
 SOURCE_ROOT_FILES = {'package.json', 'package-lock.json', 'bun.lock', 'bun.lockb', 'pnpm-lock.yaml',
                      'index.html', 'vite.config.ts', 'vitest.config.ts', 'eslint.config.js',

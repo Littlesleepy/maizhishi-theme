@@ -4,6 +4,8 @@
 
 ## 原画与小人
 
+- 插件根目录 `icon.png`：用户指定 `15169e9a-0557-4461-8929-d22da502fba3.png` 作为插件图标；为符合宿主大小限制等比缩小为 256×256 PNG，保留原图背景（四角为不透明黑色）。原始与输出文件指纹见 [plugin-icon-source.json](plugin-icon-source.json)。用户指定用途不被扩写为额外第三方许可声明。
+
 - `orchis-day.jpg`、`orchis-original.jpg` 及 native 中的 `orchis-day.jpg` / `orchis-night.jpg`：来自用户提供的奥契丝进化前、进化后官方卡牌原画。原上传文件为 `151761610_p3_master1200.jpg`、`151761610_p4_master1200.jpg`，画面带 Cygames 署名；不据此推定再分发授权。
 - `native/assets/orchis-chibi.png`：用户上传的 `9a593fda446f6fb6192ec1d7d0dff961.png`。作者及公开分发许可尚未核实，清单单独标记。
 
