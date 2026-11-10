@@ -410,3 +410,29 @@
     }
   }
 }
+
+/* Draw native button edges from one texture so narrow centers do not lose their stroke. */
+:root[data-dashboard-style='orchis'] {
+  [data-dashboard-workspace-tabs] [data-workspace-highlighted] {
+    --control-h: 28px;
+  }
+  :is(
+    .orchis-ui .workspace-tab,
+    .orchis-ui .game-button,
+    .orchis-ui .continue-button,
+    .orchis-ui .quiet-button,
+    .orchis-ui .quick-grid button,
+    .orchis-ui .quick-grid .native-quick-link,
+    .orchis-ui .send-button,
+    .orchis-ui .orchis-status-actions button,
+    [data-dashboard-workspace-tabs] [data-workspace-highlighted],
+    [data-dashboard-header-search],
+    .orchis-header-control
+  )::before {
+    box-sizing: border-box;
+    background: none !important;
+    border: 1px solid transparent !important;
+    border-image: url('/themes/orchis/native/assets/hd/button-frame.png') 20 /
+      calc(var(--control-h, 32px) * 0.3125) stretch !important;
+  }
+}

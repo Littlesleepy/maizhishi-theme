@@ -73,7 +73,7 @@
     "public/themes/orchis/native/assets/hd/utx_icon_footer_home_normal.png": "47b744291e3b3099bfe5331f4675b5a043f9d5dedad0cad8b3bfcb86e8ce0222",
     "public/themes/orchis/native/assets/hd/utx_icon_footer_shop_normal.png": "14f372094eca280360e4442404d2a637872803fa4c7f5e982cc155bf6b73b319",
     "public/themes/orchis/native/assets/hd/utx_icon_footer_solo_normal.png": "c1aded2d61018b2148f479d6d48c46b4386a6108129d22385845c380b7627534",
-    "public/themes/orchis/native/assets/hd-provenance.json": "630354eed90161a1184a15e5fbed6051690549889fed81c7c8bc7fab485a0e35",
+    "public/themes/orchis/native/assets/hd-provenance.json": "a8f0edd2f921d1e3df6d02ed14b43fa9489e04c4610eef9efc2f03f0e6357865",
     "public/themes/orchis/native/assets/menu/icon_other_code.png": "8b0f6073597d35d3d58c9f579c96108734074a1504e7f5faafaf41e9dcfac205",
     "public/themes/orchis/native/assets/menu/icon_other_config.png": "0b2728cae6e2d746f0e1a08e93aa91e6c3ddeaf8753ed536037a54b3b7f468d6",
     "public/themes/orchis/native/assets/menu/provenance.json": "2237e011af4c05b4fac3855284bfb33cdd5dae8272c86cf74181074243a95a6b",
@@ -929,7 +929,7 @@
     "src/styles/modern.css": "e9c2e3056164163c1d0a4b460681bcea574fbeecfe9eff47c08182423caa2ecf",
     "src/styles/orchis-bridge.css": "28f46e4ea7a784386f278494c0cefcee89c0dd8cf54d02a3e4652f1424d3fee5",
     "src/styles/orchis-demo.css": "b9cbcb29ff93911fa5ea04983b41d413e23b528068aef36be596241af5875896",
-    "src/styles/orchis.css": "b7b74390b633d266ef6a7b8aa7cf97fc412779f4c0974432889d7ec1b5bacee7",
+    "src/styles/orchis.css": "8a008a9bd2f3023657b2909149b19c061120125e0c84ce7304aafc110589cfc0",
     "src/styles/status-light.css": "df6b5fca34564497b539fa66f2e3d27d3fe5876bb459f277499ec4f5f3e0501e",
     "src/styles/surfaces.css": "b7dc26a13d0247cb8781fc3bbe4b6237881bbd3735d66faf35c267809f73194f",
     "src/styles/uppy-custom.css": "4c67b0546f57d9964075d2ec4e44e07eddc823cef5533efc873cc5f6128d8562",
@@ -954,6 +954,7 @@
     "tsconfig.node.json": "841a9891bbcd2b9975b2a25d2df492981b6ed3398235c0177231656eb386b04f",
     "tsconfig.vitest.json": "839436d85760a32550d654c5897b556213262f51b979c790cef1e0b2c523feb6",
     "vite.config.ts": "78fa37af65772fa19679cb2d4c433a6a0f8fa396f678a7829d0726b0c5e98342",
-    "vitest.config.ts": "5583db0da96187531676143a5fbb3356314de6863f3c2865f380a3bb0908db03"
+    "vitest.config.ts": "5583db0da96187531676143a5fbb3356314de6863f3c2865f380a3bb0908db03",
+    "public/themes/orchis/native/assets/hd/button-frame.png": "98d3c93e3a46cc952b42a17ee214b762704ffdf7e6b138b6500b3684baf053f8"
   }
 }

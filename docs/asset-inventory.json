@@ -5,7 +5,7 @@
   "counts": {
     "native-game-audio": 1,
     "export-metadata": 7,
-    "native-game-ui-or-effect": 99,
+    "native-game-ui-or-effect": 100,
     "user-uploaded-chibi": 1,
     "user-supplied-official-card-art": 4,
     "inherited-dashboard-font": 4
@@ -166,6 +166,18 @@
       "provenance_refs": [],
       "rights_status": "Source metadata; artwork grants are not implied",
       "trace_status": "metadata"
+    },
+    {
+      "path": "payload/themes/orchis/native/assets/hd/button-frame.png",
+      "source_copy": "frontend-source/public/themes/orchis/native/assets/hd/button-frame.png",
+      "bytes": 3493,
+      "sha256": "98d3c93e3a46cc952b42a17ee214b762704ffdf7e6b138b6500b3684baf053f8",
+      "category": "native-game-ui-or-effect",
+      "provenance_refs": [
+        "payload/themes/orchis/native/assets/hd-provenance.json#/files/31"
+      ],
+      "rights_status": "Cygames and original rightsholders; public redistribution permission unresolved",
+      "trace_status": "direct-export-hash-reference"
     },
     {
       "path": "payload/themes/orchis/native/assets/hd/button-left.png",
@@ -591,8 +603,8 @@
     {
       "path": "payload/themes/orchis/native/assets/hd-provenance.json",
       "source_copy": "frontend-source/public/themes/orchis/native/assets/hd-provenance.json",
-      "bytes": 22454,
-      "sha256": "630354eed90161a1184a15e5fbed6051690549889fed81c7c8bc7fab485a0e35",
+      "bytes": 23314,
+      "sha256": "a8f0edd2f921d1e3df6d02ed14b43fa9489e04c4610eef9efc2f03f0e6357865",
       "category": "export-metadata",
       "provenance_refs": [],
       "rights_status": "Source metadata; artwork grants are not implied",

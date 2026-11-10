@@ -742,6 +742,29 @@
         464,
         76
       ]
+    },
+    {
+      "file": "assets/hd/button-frame.png",
+      "source": "H:\\Shadowverse\\Shadowverse\\MuMu模拟器x影之诗高清版_Data\\StreamingAssets\\HybridBundles\\Windows\\assets\\_wizard2\\resources\\ui\\common\\utx_btn_common_h220_v60_frame.png",
+      "sourceName": "utx_btn_common_h220_v60_frame",
+      "sourceSize": [
+        224,
+        64
+      ],
+      "size": [
+        224,
+        64
+      ],
+      "objectType": "Sprite",
+      "operation": "Original full native image export; no crop, recolor or redraw",
+      "sha256": "98d3c93e3a46cc952b42a17ee214b762704ffdf7e6b138b6500b3684baf053f8",
+      "nativeBorder": {
+        "left": 0.0,
+        "bottom": 0.0,
+        "right": 0.0,
+        "top": 0.0
+      },
+      "rendering": "CSS nine-slice: 20 source pixels; destination border = control height * 20 / 64"
     }
   ]
 }

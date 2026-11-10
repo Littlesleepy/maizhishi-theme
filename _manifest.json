@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "id": "github.littlesleepy.maizhishi-theme",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "name": "麦之诗(界面风格)",
   "description": "以《影之诗：超凡世界》的美术风格装点界面，淡金边框搭配青白与夜蓝两套配色。",
   "author": {"name": "littlesleepy", "url": "https://github.com/Littlesleepy"},
