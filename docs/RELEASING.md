@@ -1,6 +1,6 @@
 # 公开发布准备
 
-当前版本：0.1.4，按预发布流程发行。完整项目已上传到公开 GitHub 仓库，包含预构建前端与对应源码。发行状态以 [GitHub Releases](https://github.com/Littlesleepy/maizhishi-theme/releases) 为准；尚未申请插件市场收录。
+当前版本：0.1.5，按正式版流程发行，仅适配 MaiBot 1.3.18 / SDK 2.19.0 / Dashboard 1.9.12。完整项目包含预构建前端与对应源码。发行状态以 [GitHub Releases](https://github.com/Littlesleepy/maizhishi-theme/releases) 为准，市场收录状态以官方插件市场的申请审核结果为准。
 
 ## 发布前需要补齐
 
@@ -12,7 +12,7 @@
 | 公开仓库 | 已完成首次公开上传：`https://github.com/Littlesleepy/maizhishi-theme`，默认分支 main |
 | 第三方美术和音效 | 已记录来源与哈希；公开再分发许可尚未确立，见 ASSET_SOURCES.md |
 | 第三方代码和字体 | 附锁文件、许可证声明及来源清单；缺失或未逐字核对项需发布前核对 |
-| 市场审核 | 未提交；须披露修改插件目录外前端文件、所需权限、固定指纹兼容及恢复机制 |
+| 市场审核 | 申请稿披露修改插件目录外前端文件、所需权限及恢复机制；是否收录以市场审核为准 |
 | 市场自动升级 | 未验证；当前文档仅承诺已验收的受控禁用/还原后更换 ZIP 流程 |
 
 从本地测试 ID `local.maizhishi-theme` 改为正式 ID `github.littlesleepy.maizhishi-theme` 时，必须先还原、卸载旧插件，再安装新 ID。新旧 ID 不应同时加载，也不要把旧备份复制到新 ID 下冒充新安装记录。
@@ -23,10 +23,10 @@
 
 不要上传 `.venv/`、`node_modules/`、`dist/`、真实 `config.toml`、私有备份、测试宿主、账号数据或验收日志。候选 ZIP 已按白名单打包；发布 Git 仓库时仍需检查暂存文件清单，`.gitignore` 只在插件独立仓库生效。保留 `.gitattributes` 的字节保真规则，避免 Git 自动转换换行后使完整性指纹失效。
 
-发布前从干净项目副本运行打包、完整测试和前端构建，校验解包可安装。manifest 版本、Tag 与 Release 应一致，保留固定提交与 ZIP 哈希，避免覆盖已经收录的版本。
+发布前校验打包、测试及解包安装结果。前端源码或载荷发生变化时，重新构建并验收；仅发布元数据与文档变化时，核对源码和载荷与已验收版本逐字节一致。manifest 版本、Tag 与 Release 应一致，保留固定提交与 ZIP 哈希，避免覆盖已经收录的版本。
 
 ## 市场流程依据
 
-截至 2026-11-10 核对的[官方贡献指南](https://github.com/Mai-with-u/plugin-repo/blob/main/CONTRIBUTING.md)要求公开 GitHub 仓库及至少一个已发布 Release，支持预发布但不接受仅有草稿或 Tag；随后通过仓库的添加插件 Issue 流程提交。未来提交时应重新核对最新规则。
+截至 2026-11-11 核对的[官方贡献指南](https://github.com/Mai-with-u/plugin-repo/blob/main/CONTRIBUTING.md)要求公开 GitHub 仓库及至少一个已发布 Release，支持预发布但不接受仅有草稿或 Tag；随后通过仓库的添加插件 Issue 流程提交。未来提交时应重新核对最新规则。
 
-0.1.4 的发行说明见 [RELEASE_0.1.4.md](RELEASE_0.1.4.md)。市场申请为独立步骤；公开上传的用户授权不被记录为第三方权利人授予的素材许可。
+0.1.5 的发行说明见 [RELEASE_0.1.5.md](RELEASE_0.1.5.md)。公开上传的用户授权不被记录为第三方权利人授予的素材许可。
